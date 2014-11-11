@@ -1,70 +1,139 @@
 <!DOCTYPE html>
 <html>
- <head>
-<script type="text/javascript" src="http://documentcloud.github.io/backbone/backbone-min.js">
-</script><script type="text/javascript" src="http://documentcloud.github.io/underscore/underscore-min.js">
-</script> 
- <title>Fairfield University Business Plan Competition</title>
- <style>
- #header {
-  background-color: #c8102E;
-  position: relative;
-  color: white;
-  text-align: center;
-  padding-bottom: 2em;
-  
-}
-#header h1 {
-  font-weight: lighter;
-  font-family: serif;
-  font-size: 2.5em;
-  padding: .5em;
-  padding-bottom: 0em;
-  margin: 0;
-}
-#header p {
-  font-size: 1.1em;
-  font-family: Verdana;
-  text-align: center;
-  padding-bottom: 2;
-  margin: 0;
-}
-#search-btn {
-  color: white;
-  font-size: 16px;
-  position: absolute;
-  left: 20px;
-  top: 68px;
-  text-decoration: none;
-}
- </style>
- </head>
- <body>
-<!-- Start your code here --> 
-<div id="header">
-<h1>Fairfield University</h1>
-<p>Business Plan Competition</p>
-</div>
-<!-- I don't know if this is the accurate use for the search bar --> 
-<a id="search-btn" class="" href="#">
-
-    <i class="icon-search"></i>
-
-</a>
-<div class="block-inner clearfix">
-<h2>The Fourth Annual Business Plan Competition</h2>
-<div class="content clearfix">
-<div class="boxes-box-content">
-<p>This year's funding pool is <strong>over</strong> $20,000 in cash and prizes:</p>
-<ul>
-<li>$2,500 for November's Elevator Pitch Content</li>
-<li>$20,000 for the Finale on March 31st</li>
-<p>For more information about judging criteria, eligibility rules, and other considerations, please consult the official <a href="http://is-dsb.fairfield.edu/fbp/competitors-guide">Competitors Guide</a></p> 
-</ul>
-</div>
-</div>
-</div>
-
- <p class="lw">Get Info here!</p>
-<!-- End your code here --> </body>
+  <head>
+    <script type="text/javascript" src="http://documentcloud.github.io/backbone/backbone-min.js">
+    </script><script type="text/javascript" src="http://documentcloud.github.io/underscore/underscore-min.js">
+    </script> 
+    <title>Fairfield University Business Plan Competition</title>
+    <style>
+      #header {
+        background-color: #c8102E;
+        position: relative;
+        color: white;
+        text-align: center; 
+      }
+      #header h1 {
+        font-weight: lighter;
+        font-family: serif;
+        font-size: 2.5em;
+        padding: .5em;
+        margin: 0;
+      }
+      #header h2 {
+        font-size: 1.1em;
+        font-family: Verdana;
+        text-align: center;
+        margin: 0;
+      }
+      #search-btn {
+        color: white;
+        font-size: 16px;
+        position: absolute;
+        left: 20px;
+        top: 68px;
+        text-decoration: none;
+      }
+      #navbar{
+        background-color: #c8102E;
+        overflow: hidden;
+        width: 100%;
+        border-bottom: 5px solid black;
+      }
+      #navbar ul{
+        list-style: none;
+        text-align: center;
+      }
+      #navbar ul li{
+        display: inline-block;
+        text-align: center;
+      }
+      #navbar ul li a{
+        display: block;
+        padding: .5em;
+        margin: .25em;
+      }
+      #navbar a{
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+      }
+      #navbar a:hover{
+        background-color: white;
+        color: black;
+      }
+      #navbar ul a:visited {
+        color: blue;
+      }
+      
+      body{
+        background-color: rgb(255, 255, 255);
+        margin: 0;
+        padding: 0;
+      }
+      #hero {
+        max-width:960px;
+        margin:1em auto;
+        position: relative;
+      }
+      img {max-width:100%}
+      
+    </style>
+  </head>
+  <body>
+    <!-- Start your code here --> 
+    <div id="header">
+      <h1>Fairfield University</h1>
+      <h2>Business Plan Competition</h2>
+    </div>
+    <!-- I don't know if this is the accurate use for the search bar --> 
+    <a id="search-btn" class="" href="#">
+      
+      <i class="icon-search"></i>
+      
+    </a>
+    <nav id="navbar">
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <a href="involved.html">Get Involved</a>
+        </li>
+        <li>
+          <a href="events.html">Events</a>
+        </li>
+        <li>
+          <a href="competitors.html">Competitors Guide</a>
+        </li>
+        <li>
+          <a href="Contact.html">Contact Us</a>
+        </li>
+        <li>
+          <a href="connect.html">Get Connected</a>
+        </li>
+      </ul>
+    </nav>
+    <br>
+    <div class="hero">
+      <img src="FairfieldWinningTeams.jpg" alt="Past Contest Winners">
+    </div>
+    <div class="block-inner clearfix">
+      <h3>The Fourth Annual Business Plan Competition</h3>
+      <div class="content clearfix">
+        <div class="boxes-box-content">
+          <p>This year's funding pool is <strong>over</strong> $20,000 in cash and prizes:</p>
+          <ul>
+            <li>$2,500 for November's Elevator Pitch Content</li>
+            <li>$20,000 for the Finale on March 31st</li>
+            <p>For more information about judging criteria, eligibility rules, and other considerations, please consult the official <a href="http://is-dsb.fairfield.edu/fbp/competitors-guide">Competitors Guide</a></p> 
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <p class="lw">Get Info here!</p>
+    <!-- End your code here --> </body>
 </html>
