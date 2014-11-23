@@ -75,6 +75,10 @@
       }
       img {max-width:100%}
       
+      form {
+  text-decoration: none;
+}
+      
     </style>
   </head>
   <body>
@@ -115,22 +119,34 @@
       </ul>
     </div>
     <br>
-    <div class="hero">
-      <img src="FairfieldWinningTeams.jpg" alt="Past Contest Winners">
-    </div>
-    <div class="block-inner clearfix">
-      <h3>The Fourth Annual Business Plan Competition</h3>
-      <div class="content clearfix">
-        <div class="boxes-box-content">
-          <p>This year's funding pool is <strong>over</strong> $20,000 in cash and prizes:</p>
-          <ul>
-            <li>$2,500 for November's Elevator Pitch Content</li>
-            <li>$20,000 for the Finale on March 31st</li>
-            <p>For more information about judging criteria, eligibility rules, and other considerations, please consult the official <a href="http://is-dsb.fairfield.edu/fbp/competitors-guide">Competitors Guide</a></p> 
-          </ul>
-        </div>
-      </div>
-    </div>
+    <form action="" method="POST">
+   <h1> Contact Us! </h1>
+   <ul>
+   <li>
+   <label for="form-name">Name:</label>
+   <input type="text" name="name" id="form-name" class="textinput">
+   </li>
+   <li>
+    <label for="form-email">Email Address:</label>
+    <input type="email" name="emailaddress" id="form-email">
+    </li>
+    <li>
+    <label for="form-subject">Subject:</label>
+    <input type="text" name="subjectfield" id="form-subject">
+    </li>
+    <li>
+    <label for="form-category">Category:</label>
+    <input type="text" name="category" id="form-category">
+    </li>
+    <li>
+    <label for="form-message">Message:</label>
+    <textarea name="messages" maxlength-"500" id="form-message" rows="10" cols="30" placeholder="leave us a message"></textarea>
+    </li>
+    <li class="buttons">
+    <input type="submit" value="Submit Message!">
+    </li>
+    </ul>
+    </form>
     
     <p class="lw">Get Info here!</p>
     <!-- End your code here --> 
