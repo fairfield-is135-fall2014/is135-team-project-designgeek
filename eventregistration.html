@@ -79,13 +79,13 @@
       img {max-width:100%}
       
       form {
-  text-decoration: none;
-}
+        text-decoration: none;
+      }
       
     </style>
   </head>
   <body>
-   <!-- Start your code here --> 
+    <!-- Start your code here --> 
     <div id="header">
       <h1>Fairfield University</h1>
       <h2>Business Plan Competition</h2>
@@ -113,38 +113,58 @@
         <li>
           <a href="competitors.html">Competitors Guide</a>
         </li>
+         <li>
+          <a href="connect.html">Get Connected</a>
+        </li>
         <li>
           <a href="contact.html">Contact Us</a>
         </li>
-        <li>
-          <a href="connect.html">Get Connected</a>
-        </li>
+      
       </ul>
     </div>
     <br>
+    <br>
     <form action="" method="POST">
-   <h1>Register for Our Events </h1>
-   <ul>
-   <li>
-   <label for="form-name">Name:</label>
-   <input type="text" name="name" id="form-name" class="textinput">
-   </li>
-   <li>
-    <label for="form-email">Email Address:</label>
-    <input type="email" name="emailaddress" id="form-email">
-    </li>
-    <li>
-    <label for="form-category">Interested In:</label>
-    <input type="text" name="interested-in" id="form-category">
-    </li>
-    <li>
-    <label for="form-message">Upcoming Events:</label>
-    <input type="check-box" id="form-category">
-    </li>
-    <li>
-    <a href="thankyou.html">Submit</a>
-    </li>
-    </ul>
+      <h1>Register for Our Events </h1>
+      <ul>
+        <li>
+          <label for="form-name">Name:</label>
+          <input type="text" name="name" id="form-name" class="textinput">
+        </li>
+        <li>
+          <label for="form-email">Email Address:</label>
+          <input type="email" name="emailaddress" id="form-email">
+        </li>
+        
+        <li>
+          <label for="form-category">Intrested As:</label>
+          <select id="form-category" name="category" size="1">
+            <option>Spectator or guest with a general interest in entrepreneurship</option>
+            <option>Current student who might like to participate in this year's competition</option>
+            <option>Prospective mentor/advisor/partner for this year's competitions</option>
+            <option>Registered competitor for this year's competition</option>
+            <option>Registered mentor, faculty, or other competition staff</option>
+          </select>
+        </li>
+        
+        <li>
+          <label for="form-category">Upcoming Events:</label>
+          <ul>
+            <li><label><input type="checkbox" name="intrested-in" value="spring-welcome">Jan 27: Spring Welcome and Kickoff</label></li>
+            <li><label><input type="checkbox" name="intrested-in" value="officehours1">Feb 3: Open Office Hours with Expert Advisors </label></li>
+            <li><label><input type="checkbox" name="intrested-in" value="officehours2">Feb 5: Open Office Hours with Expert Advisors </label></li>
+            <li><label><input type="checkbox" name="intrested-in" value="officehours3">Feb 9: Open Office Hours with Expert Advisors  </label></li>
+            <li><label><input type="checkbox" name="intrested-in" value="practicepitch1">Feb 19: Practice Pitch Session</label></li>
+            <li><label><input type="checkbox" name="intrested-in" value="practicepitch2">Feb 24: Practice Pitch Session</label></li>
+            <li><label><input type="checkbox" name="intrested-in" value="semifinals">Feb 28: Semifinal Round</label></li>
+            <li><label><input type="checkbox" name="intrested-in" value="final">Final Round and Gala</label></li>
+          </ul>
+        </li>
+        
+        <li>
+          <a href="thankyou.html"><input type="submit" value="Submit"/></a>
+        </li>
+      </ul>
     </form>
     
     <p class="lw">Get Info here!</p>

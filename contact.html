@@ -113,17 +113,19 @@
         <li>
           <a href="competitors.html">Competitors Guide</a>
         </li>
+         <li>
+          <a href="connect.html">Get Connected</a>
+        </li>
         <li>
           <a href="contact.html">Contact Us</a>
         </li>
-        <li>
-          <a href="connect.html">Get Connected</a>
-        </li>
+      
       </ul>
     </div>
     <br>
-    <form action="" method="POST">
+    <form action="" method="POST"> <!---What do we put for ACTION????????--->
    <h1> Contact Us! </h1>
+   <fieldset>
    <ul>
    <li>
    <label for="form-name">Name:</label>
@@ -139,16 +141,25 @@
     </li>
     <li>
     <label for="form-category">Category:</label>
-    <input type="text" name="category" id="form-category">
+    <select id="form-category" name="category" size="1">
+   <option>General Inquiries</option>
+   <option>Event Inquiries</option>
+   <option>Media Inquiries</option>
+   <option>Mentor/ Advisor Participation Inquiry</option>
+   <option>Sponsorship Inquiries</option>
+   <option>Website Feedback (and Bug Reports)</option>
+    </select>
     </li>
     <li>
     <label for="form-message">Message:</label>
-    <textarea name="messages" maxlength-"500" id="form-message" rows="10" cols="30" placeholder="leave us a message"></textarea>
+    <textarea name="messages" rows="4" cols="60" maxlength="300" id="form-message" placeholder="Leave us a message"></textarea>
     </li>
+    
     <li class="buttons">
     <input type="submit" value="Submit Message!">
     </li>
     </ul>
+    </fieldset>
     </form>
     
     <p class="lw">Get Info here!</p>
