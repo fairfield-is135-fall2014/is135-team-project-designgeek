@@ -88,7 +88,16 @@
       form {
   text-decoration: none;
 }
-      
+ul {
+  list-style-type: none;
+}
+    textarea {
+  position:absolute;
+}  
+label:after {
+  content:"*";
+  color: red;
+}
     </style>
   </head>
   <body>
@@ -161,15 +170,17 @@
     <label for="form-message">Message:</label>
     <textarea name="messages" rows="4" cols="60" maxlength="300" id="form-message" placeholder="Leave us a message"></textarea>
     </li>
-    
+    <br>
+    <br>
+    <br>
+    <br>
     <li class="buttons">
     <input type="submit" value="Submit Message!">
     </li>
     </ul>
     </fieldset>
     </form>
-    
-    <p class="lw">Get Info here!</p>
+   
     
     <div id="footer">
       <div id="form">
