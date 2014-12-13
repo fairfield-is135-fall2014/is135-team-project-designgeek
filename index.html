@@ -85,21 +85,31 @@
         position: relative;
         width:100%;
       }
-        div#hero.hero {
+      div#hero.hero {
         margin-top:0; 
-        }
-        
-       #footer {
+      }
+      
+      #footer {
         background-color: #333;
         color: white;
-       /* position: relative;*/ 
+        /* position: relative;*/ 
         height: 15em;
         clear: right;
         margin-bottom:0;
       }
-      #form {
+      div#form {
         text-align: left;
         padding-left:15px;
+        display:inline-block;
+        position:absolute;
+      }
+      
+      .sponsors {
+        /*  padding-left:15px;*/
+        margin-left:680px;
+        margin-bottom:15;
+        display:inline-block;
+        margin-top:25px;
       }
       #video{
         float: right;
@@ -109,24 +119,25 @@
         margin-left;40;
       }
       div#video.col-md-6{
-  margin-left:40;
-  padding-left:30;
-  width:618px;
-}
+        margin-left:40;
+        padding-left:30;
+        width:618px;
+      }
       #competition{
         float: left;
         width: 45%;
         padding: 15px;
+        padding-top:10px;
         outline: 2px solid black;
         margin: 0 2%;
       } 
       #connected{
         float: left;
-        width: 24%;
+        width: 30%;
         padding: 10px;
         outline: 2px solid black;
         margin: 0 2%;
-        margin-left:180px;
+        margin-left:120px;
       }
       #connected img{
         width: 23%;
@@ -139,25 +150,29 @@
       }
       #calendar{
         float: right;
-        width: 2 0%;
+        width: 10 0%;
         padding: 10px;
         outline: 2px solid black;
         margin: 0 12%;
         position:relative;
       }
-     div#calendar.col-md-6 {
-  width: 318px;
-  height:136px;
-}
-  #right-col {
-  float:right;
-  width:100%;
-  padding:0
-}    
+      div#calendar.col-md-6 {
+        width: 418px;
+        height:136px;
+      }
+      #right-col {
+        float:right;
+        width:100%;
+        padding:0
+      }    
       
-.sponsors {
-  padding-left:15px;
-}
+      
+      @media screen and (min-width:481px){
+        #competition{
+          max-width: 100%;
+        }
+        
+      }
     </style>
   </head>
   <body>
@@ -169,9 +184,9 @@
         <h2>
           Business Plan Competition</h2>
       </div>
-  
-      <div id="navbar">
       
+      <div id="navbar">
+        
         <ul>
           <li>
             <a href="index.html">Home</a>
@@ -202,14 +217,15 @@
         <img alt="Past Contest Winners" src="FairfieldWinningTeams.jpg"></div>
       
       <div class="row">
-        <div class="col-md-6" id="competition"><h3>The Fourth Annual Business Plan Competition</h3><p>This year&#39;s funding pool is <strong>over</strong> $20,000 in cash and prizes:</p><p>For more information about judging criteria, eligibility rules, and other considerations, please consult the official <a href="http://is-dsb.fairfield.edu/fbp/competitors-guide">Competitors Guide</a></p><ul><li>$2,500 for November&#39;s Elevator Pitch Content</li><li>$2,500 for November&#39;s Elevator Pitch Content</li><li> $20,000 for the Finale on March 31st</li></ul></div>                        
-      <div class="col-md-6" id="video"><a href="https://www.youtube.com/watch?v=sZvr5wcc_Ng"> <img alt="" class="attr_format_media_original img_fid_201 img_view_mode_media_original media-image" src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/BPC_Video_Thumbnail_0.jpg" style="max-width: 100%" /> </a></div>
-        </div>
+        <div class="col-md-6" id="competition"><h3 style="color:black"><strong><u>The Fourth Annual Business Plan Competition:</u></strong></h3><p>This year&#39;s funding pool is <strong>over</strong> $20,000 in cash and prizes:</p><p>For more information about judging criteria, eligibility rules, and other considerations, please consult the official <a href="http://is-dsb.fairfield.edu/fbp/competitors-guide">Competitors Guide</a></p><ul><li>$2,500 for November&#39;s Elevator Pitch Content</li><li>$2,500 for November&#39;s Elevator Pitch Content</li><li> $20,000 for the Finale on March 31st</li></ul></div>                        
+        <div class="col-md-6" id="video"><a href="https://www.youtube.com/watch?v=sZvr5wcc_Ng"> <img alt="" class="attr_format_media_original img_fid_201 img_view_mode_media_original media-image" src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/BPC_Video_Thumbnail_0.jpg" style="max-width: 100%" /> </a></div>
+      </div>
       
       <br>
       <br>
       <div class="row">
         <div class="col-md-6"id="connected">
+          <h3><strong><u><a href="connect.html" style="color:black">Get Connected with Us</a></u></strong></h3>
           <h4>Donald E. Gibson</h4>
           <p>Dean, Charles F. Dolan School of Business
             <br>Professor of Management
@@ -218,39 +234,44 @@
           <p><a href="connect.html">Find More Connections</a></p>
         </div>
         <div class="col-md-6"id="calendar">
-          <h5>Upcoming Competition Events:</h5>
+          <h4 style="color:black"><strong><center><u>Upcoming Competition Events:</u></center></strong></h4>
           <p><strong>January 2015</strong>
             <br>
             <strong>Jan 27:</strong> Spring Welcome and Kickoff
             <br>
             <strong>February 2015</strong>
             <br> <strong>Feb 2:</strong> Team Formation Deadline
+            <br>
+            <br>
+            <i><strong>Check out our <a href="events.html">Events</a> page to register for the next event!</strong></i>
+            <br>
+            <br>
           </p>
         </div>
       </div>
       <br>
       <br>
       <div id="footer">
-      <div id="form">
-        <strong>Stay Informed:</strong><br />
-        <input maxlength="100" name="email" placeholder="email address" type="text" /> <a href="thankyou.html"><input type="submit" value="Submit!"/></a></div>
-     
-      <div class="sponsors">
-      <h3><strong>Thank you to Our Sponsors</strong></h3>
-      <ul>
-        <li>
-          Criticalmix</li>
-        <li>
-          Independent Software</li>
-        <li>
-          BlumShapiro</li>
-        <li>
-          FAME</li>
-      </ul>
-      <br>
+        <div id="form">
+          <strong>Stay Informed:</strong><br />
+          <input maxlength="100" name="email" placeholder="email address" type="text" /> <a href="thankyou.html"><input type="submit" value="Submit!"/></a></div>
+        
+        <div class="sponsors">
+          <h3><strong>Thank you to Our Sponsors</strong></h3>
+          <ul>
+            <li>
+              Criticalmix</li>
+            <li>
+              Independent Software</li>
+            <li>
+              BlumShapiro</li>
+            <li>
+              FAME</li>
+          </ul>
+          <br>
+        </div>
       </div>
     </div>
-     </div>
     
     
     <!-- End your code here -->  
