@@ -103,15 +103,27 @@
         background-color: #333;
         color: white;
         position: relative;
-        height: 15em;
+        /*height: 15em;*/
         clear: right;
-        clear:left;
+        margin-bottom:0;
       }
+      div#footer ul {
+        margin-bottom:0;
+      }
+      
            ul {
   list-style-type: none;
 }
-      
-      
+  #form {
+        text-align: left;
+        padding-left:15px;
+      }  
+ .sponsors {
+  padding-left:15px;
+}  
+#accordion {
+        font-size:small;
+      }   
     </style>
   </head>
   
@@ -280,8 +292,8 @@
         Stay Informed:<br />
         <input maxlength="100" name="email" placeholder="email address" type="text" /> <a href="thankyou.html"><input type="submit" value="Submit!"/></a></div>
       
-      <h3>
-        Thank you to Our Sponsors</h3>
+      <div class="sponsors">
+      <h3>Thank you to Our Sponsors</h3>
       <ul>
         <li>
           Criticalmix</li>
@@ -292,6 +304,7 @@
         <li>
           Fame</li>
       </ul>
+      </div>
     </div>
     <!-- End your code here --> 
     

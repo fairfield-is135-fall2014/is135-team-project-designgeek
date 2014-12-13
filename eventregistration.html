@@ -82,16 +82,35 @@
       form {
         text-decoration: none;
       }
-       #footer {
+      #footer {
         background-color: #333;
         color: white;
         position: relative;
-        height: 15em;
-        clear: right;}
-        ul {
-  list-style-type: none;
-}
+        /*height: 15em;*/
+        clear: right;
+        margin-bottom:0;
+      }
+      #form {
+        text-align: left;
+        padding-left:15px;
+      }
       
+      .sponsors {
+        margin-left:15px; 
+      }
+      
+      div#footer ul {
+        margin-bottom:0;
+        list-style-type: circle;
+        
+      }
+      ul {
+        list-style-type: none;
+      }
+       .form label:after {
+        content:"*";
+        color: red;
+      }
     </style>
   </head>
   <body>
@@ -100,7 +119,7 @@
       <h1>Fairfield University</h1>
       <h2>Business Plan Competition</h2>
     </div>
-   
+    
     <div id="navbar">
       <ul>
         <li>
@@ -118,21 +137,23 @@
         <li>
           <a href="newcompetitorsguide.html">Competitors Guide</a>
         </li>
-         <li>
+        <li>
           <a href="connect.html">Get Connected</a>
         </li>
         <li>
           <a href="contact.html">Contact Us</a>
         </li>
         <li><a href="#" class="glyphicon glyphicon-search"> </a></li>
-      
+        
       </ul>
     </div>
     <br>
     <br>
+    
     <form action="" method="POST">
       <h1>Register for Our Events </h1>
       <ul>
+      <div class="form">
         <li>
           <label for="form-name">Name:</label>
           <input type="text" name="name" id="form-name" class="textinput">
@@ -152,7 +173,7 @@
             <option>Registered mentor, faculty, or other competition staff</option>
           </select>
         </li>
-        
+        </div>
         <li>
           <label for="form-category">Upcoming Events:</label>
           <ul>
@@ -180,18 +201,20 @@
         Stay Informed:<br />
         <input maxlength="100" name="email" placeholder="email address" type="text" /> <a href="thankyou.html"><input type="submit" value="Submit!"/></a></div>
       
-      <h3>
-        Thank you to Our Sponsors</h3>
-      <ul>
-        <li>
-          Criticalmix</li>
-        <li>
-          Independent Software</li>
-        <li>
-          BlumShapiro</li>
-        <li>
-          Fame</li>
-      </ul>
+      <div class="sponsors">
+        <h3>Thank you to Our Sponsors</h3>
+        <ul>
+          <li>
+            Criticalmix</li>
+          <li>
+            Independent Software</li>
+          <li>
+            BlumShapiro</li>
+          <li>
+            Fame</li>
+        </ul>
+        <br>
+      </div>
     </div>
     
     <!-- End your code here --> 

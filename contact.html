@@ -76,44 +76,57 @@
         margin:1em auto;
         position: relative;
       }
-       #footer {
+      #footer {
         background-color: #333;
         color: white;
         position: relative;
-        height: 15em;
-        clear: right;}
+        /*height: 15em;*/
+        clear: right;
+        margin-padding:0;
+      }
+      div#footer ul {
+        margin-bottom:0;
+        list-style-type:circle;
+      }
       
+      #form {
+        text-align: left;
+        padding-left:15px;
+      }
+      .sponsors {
+        padding-left:15px;
+      }
       img {max-width:100%}
       
       form {
-  text-decoration: none;
-}
-ul {
-  list-style-type: none;
-}
-    textarea {
-  position:absolute;
-}  
-label:after {
-  content:"*";
-  color: red;
-}
-  img {
-      float: right;
-      height:320px;
-      weight:340px;
-      position:relative;
-      padding:2em;
+        text-decoration: none;
+      }
+      ul {
+        list-style-type: none;
+      }
+      textarea {
+        position:absolute;
+      }  
+      label:after {
+        content:"*";
+        color: red;
+      }
+      img {
+        float: right;
+        height:320px;
+        weight:340px;
+        position:relative;
+        padding:2em;
       }
     </style>
   </head>
   <body>
-   <!-- Start your code here --> 
+    <!-- Start your code here --> 
     <div id="header">
       <h1>Fairfield University</h1>
       <h2>Business Plan Competition</h2>
     </div>
-   
+    
     <div id="navbar">
       <ul>
         <li>
@@ -131,78 +144,80 @@ label:after {
         <li>
           <a href="newcompetitorsguide.html">Competitors Guide</a>
         </li>
-         <li>
+        <li>
           <a href="connect.html">Get Connected</a>
         </li>
         <li>
           <a href="contact.html">Contact Us</a>
         </li>
         <li><a href="#" class="glyphicon glyphicon-search"> </a></li>
-      
+        
       </ul>
     </div>
     <br>
     <form action="" method="POST"> <!---What do we put for ACTION????????--->
-   <h1> Contact Us! </h1>
-   <fieldset>
-   <ul>
-   <li>
-   <img alt="group" src="grouppic.jpg">
-   <label for="form-name">Name:</label>
-   <input type="text" name="name" id="form-name" class="textinput">
-   </li>
-   <li>
-    <label for="form-email">Email Address:</label>
-    <input type="email" name="emailaddress" id="form-email">
-    </li>
-    <li>
-    <label for="form-subject">Subject:</label>
-    <input type="text" name="subjectfield" id="form-subject">
-    </li>
-    <li>
-    <label for="form-category">Category:</label>
-    <select id="form-category" name="category" size="1">
-   <option>General Inquiries</option>
-   <option>Event Inquiries</option>
-   <option>Media Inquiries</option>
-   <option>Mentor/ Advisor Participation Inquiry</option>
-   <option>Sponsorship Inquiries</option>
-   <option>Website Feedback (and Bug Reports)</option>
-    </select>
-    </li>
-    <li>
-    <label for="form-message">Message:</label>
-    <textarea name="messages" rows="4" cols="60" maxlength="300" id="form-message" placeholder="Leave us a message"></textarea>
-    </li>
-    <br>
-    <br>
-    <br>
-    <br>
-    <li class="buttons">
-    <input type="submit" value="Submit Message!">
-    </li>
-    </ul>
-    </fieldset>
+      <h1> Contact Us! </h1>
+      <fieldset>
+        <ul>
+          <li>
+            <img alt="group" src="grouppic.jpg">
+            <label for="form-name">Name:</label>
+            <input type="text" name="name" id="form-name" class="textinput">
+          </li>
+          <li>
+            <label for="form-email">Email Address:</label>
+            <input type="email" name="emailaddress" id="form-email">
+          </li>
+          <li>
+            <label for="form-subject">Subject:</label>
+            <input type="text" name="subjectfield" id="form-subject">
+          </li>
+          <li>
+            <label for="form-category">Category:</label>
+            <select id="form-category" name="category" size="1">
+              <option>General Inquiries</option>
+              <option>Event Inquiries</option>
+              <option>Media Inquiries</option>
+              <option>Mentor/ Advisor Participation Inquiry</option>
+              <option>Sponsorship Inquiries</option>
+              <option>Website Feedback (and Bug Reports)</option>
+            </select>
+          </li>
+          <li>
+            <label for="form-message">Message:</label>
+            <textarea name="messages" rows="4" cols="60" maxlength="300" id="form-message" placeholder="Leave us a message"></textarea>
+          </li>
+          <br>
+          <br>
+          <br>
+          <br>
+          <li class="buttons">
+            <input type="submit" value="Submit Message!">
+          </li>
+        </ul>
+      </fieldset>
     </form>
-   
+    
     
     <div id="footer">
       <div id="form">
         Stay Informed:<br />
         <input maxlength="100" name="email" placeholder="email address" type="text" /> <a href="thankyou.html"><input type="submit" value="Submit!"/></a></div>
       
-      <h3>
-        Thank you to Our Sponsors</h3>
-      <ul>
-        <li>
-          Criticalmix</li>
-        <li>
-          Independent Software</li>
-        <li>
-          BlumShapiro</li>
-        <li>
-          Fame</li>
-      </ul>
+      <div class="sponsors">
+        <h3>Thank you to Our Sponsors</h3>
+        <ul>
+          <li>
+            Criticalmix</li>
+          <li>
+            Independent Software</li>
+          <li>
+            BlumShapiro</li>
+          <li>
+            FAME</li>
+        </ul>
+        <br>
+      </div>
     </div>
     <!-- End your code here --> 
   </body>
