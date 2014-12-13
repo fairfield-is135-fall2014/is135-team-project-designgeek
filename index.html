@@ -85,37 +85,43 @@
         position: relative;
         width:100%;
       }
-      
-      #footer {
+        div#hero.hero {
+        margin-top:0; 
+        }
+        
+       #footer {
         background-color: #333;
         color: white;
         position: relative;
         height: 15em;
-        clear: right;
+        clear: left;
         
       }
       #form {
         text-align: left;
+        padding-left:15px;
       }
       #video{
         float: right;
-        width: 50%;
-        margin: 5% 2%;
+        width: 45%;
+        margin: 0;
+        padding-right: 5;
       }
       
       #competition{
         float: left;
-        width: 50%;
-        padding: 5px;
+        width: 45%;
+        padding: 15px;
         outline: 2px solid black;
         margin: 0 2%;
       } 
       #connected{
         float: left;
         width: 30%;
-        padding: 7px;
+        padding: 10px;
         outline: 2px solid black;
         margin: 0 2%;
+        margin-left:120px;
       }
       #connected img{
         width: 23%;
@@ -128,20 +134,24 @@
       }
       #calendar{
         float: right;
-        width: 4 0%;
-        padding: 7px;
+        width: 2 0%;
+        padding: 10px;
         outline: 2px solid black;
-        margin: 0 2%;
+        margin: 0 12%;
+        position:relative;
       }
-      
-      #form {
-        float:left;
-      }
-      .sponsors {
-  float:left;
+     div#calendar.col-md-6 {
+  width: 318px;
+  height:136px;
 }
-.col-md-6 {
-  float:left;
+  #right-col {
+  float:right;
+  width:100%;
+  padding:0
+}    
+      
+.sponsors {
+  padding-left:15px;
 }
     </style>
   </head>
@@ -154,8 +164,7 @@
         <h2>
           Business Plan Competition</h2>
       </div>
-      <!-- I don't know if this is the accurate use for the search bar -->  
-       
+  
       <div id="navbar">
       
         <ul>
@@ -188,26 +197,12 @@
         <img alt="Past Contest Winners" src="FairfieldWinningTeams.jpg"></div>
       
       <div class="row">
-        
-        <div class="col-md-6" id="competition">
-          <h3>
-            The Fourth Annual Business Plan Competition</h3>
-          <p>
-            This year&#39;s funding pool is <strong>over</strong> $20,000 in cash and prizes:</p>
-          <p>
-            For more information about judging criteria, eligibility rules, and other considerations, please consult the official <a href="http://is-dsb.fairfield.edu/fbp/competitors-guide">Competitors Guide</a></p>
-          <ul>
-            <li>
-              $2,500 for November&#39;s Elevator Pitch Content</li>
-            <li>
-              $20,000 for the Finale on March 31st</li>
-          </ul>
+        <div class="col-md-6" id="competition"><h3>The Fourth Annual Business Plan Competition</h3><p>This year&#39;s funding pool is <strong>over</strong> $20,000 in cash and prizes:</p><p>For more information about judging criteria, eligibility rules, and other considerations, please consult the official <a href="http://is-dsb.fairfield.edu/fbp/competitors-guide">Competitors Guide</a></p><ul><li>$2,500 for November&#39;s Elevator Pitch Content</li><li>$2,500 for November&#39;s Elevator Pitch Content</li><li> $20,000 for the Finale on March 31st</li></ul></div>                        
+      <div class="col-md-6" id="video"><a href="https://www.youtube.com/watch?v=sZvr5wcc_Ng"> <img alt="" class="attr_format_media_original img_fid_201 img_view_mode_media_original media-image" src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/BPC_Video_Thumbnail_0.jpg" style="max-width: 100%" /> </a></div>
         </div>
-        <div class="col-md-6" id="video">
-          
-            <a href="https://www.youtube.com/watch?v=sZvr5wcc_Ng"> <img alt="" class="attr_format_media_original img_fid_201 img_view_mode_media_original media-image" src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/BPC_Video_Thumbnail_0.jpg" style="max-width: 100%" /> </a>
-        </div>
-      </div>
+      
+      <br>
+      <br>
       <div class="row">
         <div class="col-md-6"id="connected">
           <h4>Donald E. Gibson</h4>
@@ -218,23 +213,25 @@
           <p>Find More Connections</p>
         </div>
         <div class="col-md-6"id="calendar">
-          <h5>Competition Calendar</h5>
-          <p>January 2015
-            <br>Jan 27: Spring Welcome and Kickoff
+          <h5>Upcoming Competition Events:</h5>
+          <p><strong>January 2015</strong>
             <br>
-            February 2015
-            <br> Feb 2: Team Formation Deadline
+            <strong>Jan 27:</strong> Spring Welcome and Kickoff
+            <br>
+            <strong>February 2015</strong>
+            <br> <strong>Feb 2:</strong> Team Formation Deadline
           </p>
         </div>
       </div>
-      
+      <br>
+      <br>
       <div id="footer">
       <div id="form">
         Stay Informed:<br />
         <input maxlength="100" name="email" placeholder="email address" type="text" /> <a href="thankyou.html"><input type="submit" value="Submit!"/></a></div>
-      
-      <h3>
-        Thank you to Our Sponsors</h3>
+     
+      <div class="sponsors">
+      <h3>Thank you to Our Sponsors</h3>
       <ul>
         <li>
           Criticalmix</li>
@@ -243,10 +240,11 @@
         <li>
           BlumShapiro</li>
         <li>
-          Fame</li>
+          FAME</li>
       </ul>
-    </div>
       </div>
+    </div>
+     </div>
     
     
     <!-- End your code here -->  

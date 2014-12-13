@@ -1,20 +1,23 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Competitors Guide</title>
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
-  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-  <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
-  <link rel="stylesheet" href="/resources/demos/style.css">
-  <script>
-  $(function() {
-    $( "#accordion" ).accordion({
-      collapsible: true
-    });
-  });
-  </script>
-  <style>
+  <head>
+      <script type="text/javascript" src="http://documentcloud.github.io/backbone/backbone-min.js">
+    </script><script type="text/javascript" src="http://documentcloud.github.io/underscore/underscore-min.js"></script><!-- Latest compiled and minified CSS -->  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Optional theme -->  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css" rel="stylesheet" />
+    <!-- Latest compiled and minified JavaScript --><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>  <meta content="width=device-width, initial-scale=1" name="viewport" />
+     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script>
+      $(function() {
+        $( "#accordion" ).accordion({
+          collapsible: true
+        });
+      });
+    </script>
+    <title>Competitors Guide</title>
+    <style>
       #wrapper{
         width: auto;
         margin: 0 auto;
@@ -24,16 +27,17 @@
         position: relative;
         color: white;
         text-align: center; 
+        padding: 15px;
       }
       #header h1 {
         font-weight: lighter;
         font-family: serif;
-        font-size: 3em;
+        font-size: 2.5em;
         padding: .5em;
         margin: 0;
       }
       #header h2 {
-        font-size: 1.4em;
+        font-size: 1.1em;
         font-family: Verdana;
         text-align: center;
         margin: 0;
@@ -101,34 +105,47 @@
         background-color: #333;
         color: white;
         position: relative;
-        height: 15em;
+       /* height: 15em;*/
         clear: right;
-        clear:left;
+        margin-bottom:0; 
       }
-          #menu ul {
-  list-style-type: none;
-}
-.red {
-  color:red;
-}
-#accordion {
-  font-size:small;
-}
-</style>  
-</head>
-<body>
-  <div id="wrapper">
+       div#footer ul {
+  margin-bottom:0;
+  }
+  
+     #form {
+        text-align: left;
+        padding-left:15px;
+      }
+  
+      #menu ul {
+        list-style-type: none;
+      }
+      .red {
+        color:red;
+      }
+      #accordion {
+        font-size:small;
+      }
+      #left-col {
+        float:left;
+        width:30%;
+        
+      }
+      #right-col {
+        float:right;
+        width:60%;
+      }
+    </style>  
+  </head>
+  <body>
+    <div id="wrapper">
       <!-- Start your code here --> 
       <div id="header">
         <h1>Fairfield University</h1>
         <h2>Business Plan Competition</h2>
       </div>
-      <!-- I don't know if this is the accurate use for the search bar --> 
-      <a id="search-btn" class="" href="#">
-        
-        <i class="icon-search"></i>
-        
-      </a>
+      
       <div id="navbar">
         <ul>
           <li>
@@ -157,69 +174,70 @@
         </ul>
       </div>
       <br>
-      
-      <h3>Competitors Guide: Resources</h3>
-      <div id="menu">
-        <ul>
-          <li><a href="#started">Getting Started</a></li>
-          <li><a href="newcompetitorsguide">The Winning Game Plan</a></li>
-          <ol><li><a href="#homework">Do Your Homework</a></li>
-            <li><a href="#build">Build Your Network</a></li>
-            <li><a href="#teamformation">Form Your Team</a></li>
-            <li><a href="#workmentor">Work with a Mentor</a></li>
-            <li><a href="#consult">Consult the Experts</a></li>
-            <li><a href="#deal">Close the Deal</a></li>
-          </ol>
-          <li><a href="rules.html">Rules and Policies</a></li>
-          <ol><li><a href="judging">Judging Criteria</a></li>
-            <li><a href="elegibility">Elegibility Requirements</a></li>
-            <li><a href="intellectual">Intellectual Property and Confidentiality Policies</a></li>
-            <li><a href="mentorguide">Guidelines for Mentors</a></li>
-          </ol>
-          <li><a href="resources.html">Resources</a></li>  
-          <ol><li><a href="roadmap">Roadmap</a></li>
-            <li><a href="template">Business Plan Template</a></li>
-            <li><a href="courses">Relevant Courses and Programs</a></li>
-            <li><a href="links">Useful Links</a></li>
-          </ol>
-        </ul>
-      </div>
-      
-<div id="accordion">
-  <div class="roadmap">
-   <h3>Roadmap</h3>
-  </div>
-  <div><p> White the precise timing and mix of events varies from year to year -- see the front page of the website for details -- the calendar generally goes something like this:</p> 
-  <ul>
-  <li><strong>September 23rd</strong>(Tuesday): Kickoff (begin student signups, introduce mentors, ...)</li>
-  <li><strong>October 19th</strong>(Sunday): Startup Day (concept pitches, workshop with mentors, team signups)</li>
-  <li><strong>November 15th</strong>(Saturday): Elevator Pitch (icebreaker/mixer, <strong>prizes</strong></li>
-  <li><strong>January 27th</strong>(Tuesday): Spring Kickstart</li>
-  <li><strong>February 2nd</strong> Team Formation Deadline</li>
-  <li><strong>Feb (Dates TBA):</strong> Open Office Hours with Expert Advisors - <span class="red">Appts. Mandatory</span> (Informational events with subject matter experts)</li>
-  <li><strong>February 19 and 24th:</strong> (Thursday/Tuesday): Practice Pitch Sessions with Mentors (must have preliminary draft plan)</li>
-  <li><strong>February 28th</strong> (Sunday): Semifinal Round (must have complete plan, though revisions can be made before final round</li>
-  <li><strong>March 15th</strong> Deadline for final plan revisions</li>
-  <li><strong>March 31</strong> (Tuesday): Finale - <strong>Cash prizes</strong> to be announced at the Gala Event</li>
-  </ul>
-  <p>The best teams have a plan for each event, working to get the maximum benefit from the business connections, mentoring, funding, and other resources available at the time</p>
-  </div>
-  <div class="template">
-    <h3>
-    Business Plan Template
-    </h3></div>
-    <div> <p>PUT WORDS HERE (lol)</p></div>
-  <div class="courses">
-    <h3>
-    Relevant Courses and Programs
-    </h3></div>
-   <div> <p>PUT WORDS HERE (lol)</p> </div>
-     <div class="links"> 
-      <h3>Useful Links</h3></div>
-      <div> <p>PUT WORDS HERE (lol)</p> </div>
-      
-  </div>
-</div>
+      <div id="left-col">
+        <h3>Competitors Guide: Resources</h3>
+        <div id="menu">
+          <ul>
+            <li><a href="newcompetitotsguide.html">Getting Started</a></li>
+            <li><a href="newcompetitorsguide.html">The Winning Game Plan</a></li>
+            <ol><li>Do Your Homework</li>
+              <li>Build Your Network</li>
+              <li>Form Your Team</li>
+              <li>Work with a Mentor</li>
+              <li>Consult the Experts</li>
+              <li>Close the Deal</li>
+            </ol>
+            <li><a href="rules.html">Rules and Policies</a></li>
+            <ol><li>Judging Criteria</li>
+              <li>Elegibility Requirements</li>
+              <li>Intellectual Property and Confidentiality Policies</li>
+              <li>Guidelines for Mentors</li>
+            </ol>
+            <li><a href="resources.html">Resources</a></li>  
+            <ol><li>Roadmap</li>
+              <li>Business Plan Template</li>
+              <li>Relevant Courses and Programs</li>
+              <li>Useful Links</li>
+            </ol>
+          </ul>
+        </div></div>
+      <div id="right-col">      
+        <div id="accordion">
+          <div class="roadmap">
+            <h3>Roadmap</h3>
+          </div>
+          <div><p> White the precise timing and mix of events varies from year to year -- see the front page of the website for details -- the calendar generally goes something like this:</p> 
+            <ul>
+              <li><strong>September 23rd</strong>(Tuesday): Kickoff (begin student signups, introduce mentors, ...)</li>
+              <li><strong>October 19th</strong>(Sunday): Startup Day (concept pitches, workshop with mentors, team signups)</li>
+              <li><strong>November 15th</strong>(Saturday): Elevator Pitch (icebreaker/mixer, <strong>prizes</strong></li>
+              <li><strong>January 27th</strong>(Tuesday): Spring Kickstart</li>
+              <li><strong>February 2nd</strong> Team Formation Deadline</li>
+              <li><strong>Feb (Dates TBA):</strong> Open Office Hours with Expert Advisors - <span class="red">Appts. Mandatory</span> (Informational events with subject matter experts)</li>
+              <li><strong>February 19 and 24th:</strong> (Thursday/Tuesday): Practice Pitch Sessions with Mentors (must have preliminary draft plan)</li>
+              <li><strong>February 28th</strong> (Sunday): Semifinal Round (must have complete plan, though revisions can be made before final round</li>
+              <li><strong>March 15th</strong> Deadline for final plan revisions</li>
+              <li><strong>March 31</strong> (Tuesday): Finale - <strong>Cash prizes</strong> to be announced at the Gala Event</li>
+            </ul>
+            <p>The best teams have a plan for each event, working to get the maximum benefit from the business connections, mentoring, funding, and other resources available at the time</p>
+          </div>
+          <div class="template">
+            <h3>
+              Business Plan Template
+            </h3></div>
+          <div> <p>PUT WORDS HERE  </p></div>
+          <div class="courses">
+            <h3>
+              Relevant Courses and Programs
+            </h3></div>
+          <div> <p>PUT WORDS HERE  </p> </div>
+          <div class="links"> 
+            <h3>Useful Links</h3></div>
+          <div> <p>PUT WORDS HERE  </p> </div>
+          
+        </div>
+      </div></div>
+      <br>
     <div id="footer">
       <div id="form">
         Stay Informed:<br />
@@ -238,5 +256,5 @@
           Fame</li>
       </ul>
     </div>
-</body>
+  </body>
 </html>

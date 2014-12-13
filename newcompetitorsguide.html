@@ -1,9 +1,11 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>Competitors Guide</title>
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+     <script type="text/javascript" src="http://documentcloud.github.io/backbone/backbone-min.js">
+    </script><script type="text/javascript" src="http://documentcloud.github.io/underscore/underscore-min.js"></script><!-- Latest compiled and minified CSS -->  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Optional theme -->  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css" rel="stylesheet" />
+    <!-- Latest compiled and minified JavaScript --><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>  <meta content="width=device-width, initial-scale=1" name="viewport" />
+     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
     <link rel="stylesheet" href="/resources/demos/style.css">
@@ -14,26 +16,25 @@
         });
       });
     </script>
+    <title>Competitors Guide</title>
     <style>
-      #wrapper{
-        width: auto;
-        margin: 0 auto;
-      }
+     
       #header {
         background-color: #c8102E;
         position: relative;
         color: white;
         text-align: center; 
+        padding: 15px;
       }
       #header h1 {
         font-weight: lighter;
         font-family: serif;
-        font-size: 3em;
+        font-size: 2.5em;
         padding: .5em;
         margin: 0;
       }
       #header h2 {
-        font-size: 1.4em;
+        font-size: 1.1em;
         font-family: Verdana;
         text-align: center;
         margin: 0;
@@ -93,7 +94,7 @@
       #main{
         float: left;
         width: auto;
-        margin: 0 20px;
+        margin: 0 5px;
         left: 225px;
       }
       
@@ -103,11 +104,26 @@
         position: relative;
         height: 15em;
         clear: right;
-        clear:left;
+       
       }
       ul {
         list-style-type: none;
       }
+      #menu {
+  float:right;
+}
+      
+#left-col {
+   float:left;
+   width:30%;
+   
+}
+#right-col {
+   float:right;
+   width:60%;
+   padding:0;
+}
+
       
     </style>  
   </head>
@@ -147,7 +163,8 @@
         </ul>
       </div>
       <br>
-      
+      <div id="wrap">
+      <div id="left-col">
       <h3>Competitors Guide: The Winning Gameplan</h3>
       <div id="menu">
         <ul>
@@ -174,9 +191,12 @@
             <li>Useful Links</li>
           </ol>
         </ul>
+        </div>
       </div>
       
+      <div id="right-col">
       <div id="accordion">
+
         <div class="started"><h3>Getting Started</h3></div>
         <div>
           <p><strong>Before you can win, you must be officially registered in the competition. Fortunately, you can do that in about 5 minutes from your phone or computer.&nbsp;</strong></p>
@@ -267,8 +287,13 @@
           <p>And finally, in order to close the deal and win the competition, you need to practice and hone your pitch. Your pitch presentations need to be every bit as effective in communicating the opportunity as the opportunity itself! Take advantage of valuable resources in preparing, including the practice pitch sessions with the mentors and working one-on-one with Jeff Roseman (listed in the Directory). He is an <em>expert</em> on closing the deal, and he's already offered to work with you.</p>
           <p>With the right team, right plan and right pitch, you can be the next big winner of the Fairfield University Business Plan Competition.</p>
         </div>
-      </div>
-    </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        
+      
+    
      <div id="footer">
       <div id="form">
         Stay Informed:<br />

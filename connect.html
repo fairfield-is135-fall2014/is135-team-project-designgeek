@@ -12,16 +12,17 @@
         position: relative;
         color: white;
         text-align: center; 
+        padding: 15px;
       }
       #header h1 {
         font-weight: lighter;
         font-family: serif;
-        font-size: 3em;
+        font-size: 2.5em;
         padding: .5em;
         margin: 0;
       }
       #header h2 {
-        font-size: 1.4em;
+        font-size: 1.1em;
         font-family: Verdana;
         text-align: center;
         margin: 0;
@@ -149,7 +150,11 @@
       div.row div:hover span.text-content {
         opacity: 1;
       }
-      
+      #people li{
+        display: inline;
+        margin-left: 1em; 
+        margin-right: 1em;
+      }
     </style>
   </head>
   <body>
@@ -158,12 +163,7 @@
       <h1>Fairfield University</h1>
       <h2>Business Plan Competition</h2>
     </div>
-    <!-- I don't know if this is the accurate use for the search bar --> 
-    <a id="search-btn" class="" href="#">
-      
-      <i class="icon-search"></i>
-      
-    </a>
+    
     <div id="navbar">
       <ul>
         <li>
@@ -195,166 +195,167 @@
     <br>
     <h1>Get Connected with Us!</h1>
     <p>Jump to Connect with:
-      <ul>
-        <li><a href="#advisors">Our Advisors</a></li>
-        <li><a href="#mentors">Our Mentors</a></li>
-        <li><a href="#judges">Our Judges</a></li>
-        <li><a href="#organizers">Our Organizers</a></li>
-      </ul>
+      <div id="people">
+        <ul>
+          <li><a href="#advisors">Our Advisors</a></li>
+          <li><a href="#mentors">Our Mentors</a></li>
+          <li><a href="#judges">Our Judges</a></li>
+          <li><a href="#organizers">Our Organizers</a></li>
+        </ul></div>
     </p>
     <div name="advisors"><h2>Advisors</h2></div>
     <div id="advisors">
       <div class="row">
         <div class="col-xs-6 col-sm-4"><a href="https://www.linkedin.com/in/patricktdunleavey" target="_blank"><img alt="Patrick Dunleavy" src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11739-1390319785.jpg?itok=kufe-1Fh" width="120" height="125" alt="">  <span class="text-content"><span><center><b>Patrick Dunleavy</b></center> Class of 2007<br> Manager with BlumShapiro with 6 years of accounting and auditing experience</span></span></a></div>
-         <div class="clearfix visible-xs-block"></div>
+        <div class="clearfix visible-xs-block"></div>
         <div class="col-xs-6 col-sm-4"><a href="https://www.linkedin.com/pub/craig-goos/11/62/961" target="_blank"><img alt="" src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11740-1391011645.jpg?itok=bkgiHfRB" width="120" height="125"> <span class="text-content"><span><center><b>Craig Goos</b></center> Partner and Managing Director of North Capital</span></span></a></div>
         <!-- Optional: clear the XS cols if their content doesn't match in height -->
         <div class="clearfix visible-xs-block"></div>
         <div class="col-xs-6 col-sm-4"><a href="https://www.linkedin.com/pub/ben-muskin/7/757/844" target="_blank"><img alt="" src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11704-1381526889.jpg?itok=QqSBCmgd" width="120" height="125"><span class="text-content"><span><center><b>Ben Muskin</b></center> Managing Director, Sagebrook Partners <br>Fairfield U. Consultant: Director of Tech Transfer</span></span></a>
         </div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col-xs-6 col-sm-4"><a href="http://linkedin.com" target="_blank"><img alt="" src="fairfieldlogo.jpg" width="120" height="125"><span class="text-content"><span><center><b>John Neal</b></center> Fairfield U. Professor<br> Former Executive VP, General Manager of Campbell Mithun Esty Advertising Agency</span></span></a></div>
-          <div class="clearfix visible-xs-block"></div>
-          <div class="col-xs-6 col-sm-4"><a href="http://linkedin.com" target="_blank"><img alt="" src="fairfieldlogo.jpg" width="120" height="125"> <span class="text-content"><span><center><b>Mele Orendorf</b></center> Senior level executive <br>Extensive experience in Sales, Marketing, Finance and Management in Computer Technology</span></span></a></div>
-          <!-- Optional: clear the XS cols if their content doesn't match in height -->
-          <div class="clearfix visible-xs-block"></div>
-          <div class="col-xs-6 col-sm-4"><a href="http://linkedin.com" target="_blank"><img alt="" src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11717-1383944315.jpg?itok=6sSeUdXi" width="120" height="125"><span class="text-content"><span><center><b>Dr. Rajasree Rajamma</b></center>Department Chair of Marketing<br>MBA in Marketing and Management Information Systems, Bachelors in Electrical and Electronics Engineering</span></span></a></div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col-xs-6 col-sm-4"><img alt="" src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11706-1382026922.jpg?itok=uJlyS-rJ" width="120" height="125"><span class="text-content"><span><center><b>Mike Roer</b></center>President of the Entrepreneurship Foundation</span></span></div>
-          <div class="col-xs-6 col-sm-4"><img alt="" src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11738-1390319836.jpg?itok=eFgJSJZ5" width="125" height="125"><span class="text-content"><span><center><b>Thomas E. Walsh</b></center>Partner with BlumShapiro<br>Over 15 years of accounting and auditing experience</span></span></div>
-          <!-- Optional: clear the XS cols if their content doesn't match in height -->
-          <div class="clearfix visible-xs-block"></div>
-          <div class="col-xs-6 col-sm-4"><img alt="" src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11749-1391435176.jpg?itok=XdHGTlok" width="125" height="125"><span class="text-content"><span><center><b>Marcus Wilkinson</b></center>Partner with technology-oriented VLP Law Group LLP</span></span></div>
-        </div>
       </div>
       <br>
-      <div name="mentors"><h2>Mentors</h2></div>
-      <div id="mentors">
-        <div class="row">
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11760-1392398735.jpg?itok=1byvV-CF" width="120" height="125" alt=""><span class="text-content"><span><center><b>Mousumi Bose Godbole</b></center>Associate Professor of Marketing<br>8.5 years experience in pharmaceutical and healthcare marketing</span></span></div>
-          <div class="col-xs-6 col-sm-4"><img alt="" src="fairfieldlogo.jpg" width="120" height="125"><span class="text-content"><span><center><b>Joyce Brown</b></center>Managing Director for W.W. Mentorprises, Inc<br>Wide range of consulting and practical experience</span></span></div>
-          <!-- Optional: clear the XS cols if their content doesn't match in height -->
-          <div class="clearfix visible-xs-block"></div>
-          <div class="col-xs-6 col-sm-4"><img alt="" src="fairfieldlogo.jpg" width="120" height="125"><span class="text-content"><span><center><b>James Dugan</b></center>Class of 1985<br>Director of BoA<br>25+ years of Sales and Trading experience</span></span></div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-9725-1368234531.jpg?itok=yFs71yVR" width="120" height="125" alt=""><span class="text-content"><span><center><b>Dan Fahy </b></center>Class of 2006<br>New Business Director at Ceros</span></span></div>
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11730-1385397543.jpg?itok=JB9JSCYs" width="120" height="125" alt=""><span class="text-content"><span><center><b>Chris Hamer</b></center>Founder/CEO of CrowdFlik, Inc.<br>Highly experienced digital executive - background in marketing, entertainment, digital media and technology</span></span></div>
-          <!-- Optional: clear the XS cols if their content doesn't match in height -->
-          <div class="clearfix visible-xs-block"></div>
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-127-1368235708.jpg?itok=TUnb-KwL" width="120" height="125" alt=""><span class="text-content"><span><center><b>Brian Harniman</b></center>Class of 1994<br>Over 17 years in online commerce, expertise in building relationships that drive traffic and transactions to websites</span></span></div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11777-1410986158.jpg?itok=2fvLVCHR" width="120" height="125" alt=""><span class="text-content"><span><center><b>Denise Graziano</b></center>President of Graziano Associates<br>strategic thinker and leader with over 27 years of business experience</span></span></div>
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-196-1368237343.jpg?itok=yNBXgvYW" width="120" height="125" alt=""><span class="text-content"><span><center><b>Paul Lukas</b></center>Class of 1989<br>Vice President of Cierant Corporation, graphic arts service provider specializing in Cross-Channel Marketing Communications</span></span></div>
-          <!-- Optional: clear the XS cols if their content doesn't match in height -->
-          <div class="clearfix visible-xs-block"></div>
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11824-1412037432.jpg?itok=ap0-m9K4" width="120" height="125" alt=""><span class="text-content"><span><center><b>David Mangini</b></center>Global Alliances - Security Services for IBM for the past 8 years<br>responsible for creating and managing alliances</span></span></div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11718-1384124997.jpg?itok=X75jCT0s" width="120" height="125" alt=""><span class="text-content"><span><center><b>Gene Mauro</b></center>Class of 1992<br>Serial entrepreneur of digital businesses</span></span></div>
-          <div class="col-xs-6 col-sm-4"><img alt="" src="fairfieldlogo.jpg" width="120" height="125"><span class="text-content"><span><center><b>Tom McCabe</b></center>Managing Director for W.W.Mentorprises, Inc.<br>Wide range of consulting experience</span></span></div>
-          <!-- Optional: clear the XS cols if their content doesn't match in height -->
-          <div class="clearfix visible-xs-block"></div>
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11792-1411061539.jpg?itok=Cn3pWeBD" width="120" height="125" alt=""><span class="text-content"><span><center><b>Michael McDonald</b></center>Professor of Fiance<br>Worked in an investment banking firm before becoming a Professor</span></span></div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11741-1391021996.jpg?itok=-Qw7N-iJ" width="120" height="125" alt=""><span class="text-content"><span><center><b>Desmond Morris</b></center>Class of 2005<br>Technology Consultant</span></span></div>
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-142-1368231495.jpg?itok=XupFfhCm" width="120" height="125" alt=""><span class="text-content"><span><center><b>Dr. Ryan Munden</b></center>Professor of Electrical Engineering<br>focus on nanotechnology and solar cells, but also innovative technologies in general</span></span></div>
-          <!-- Optional: clear the XS cols if their content doesn't match in height -->
-          <div class="clearfix visible-xs-block"></div>
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-130-1374518018.png?itok=60tKGSLH" width="120" height="125" alt=""><span class="text-content"><span><center><b>David Murray</b></center>VP, Integrated Sales and Marketing for NCM Media Networks<br>Currently leads a business development initiative</span></span></div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col-xs-6 col-sm-4"><img alt="" src="fairfieldlogo.jpg" width="120" height="125"><span class="text-content"><span><center><b>John Neal</b></center>Fairfield U. Professor<br> Former Executive VP, General Manager of Campbell Mithun Esty Advertising Agency</span></span></div>
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-141-1368238059.jpg?itok=4_3GvJ-k" width="120" height="125" alt=""><span class="text-content"><span><center><b>William Pitt</b></center>Chief Marketing Officer for Beazley pcl</span></span></div>
-          <!-- Optional: clear the XS cols if their content doesn't match in height -->
-          <div class="clearfix visible-xs-block"></div>
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-132-1368238441.jpg?itok=Tmsrc-Fj" width="120" height="125" alt=""><span class="text-content"><span><center><b>Matt Powers</b></center>Class of 2003<br>Chief Technology Officer for Applico, Inc.</span></span></div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11706-1382026922.jpg?itok=uJlyS-rJ" width="120" height="125" alt=""><span class="text-content"><span><center><b>Mike Roer</b></center>President of the Entrepreneurship Foundation</span></span></div>
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11736-1386881995.jpg?itok=ST9bScCv" width="120" height="125" alt=""><span class="text-content"><span><center><b>Mark Selinger</b></center>Class of 1990<br>International Software Executive</span></span></div>
-          <!-- Optional: clear the XS cols if their content doesn't match in height -->
-          <div class="clearfix visible-xs-block"></div>
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11731-1385571174.jpg?itok=2Kb6jyCP" width="120" height="125" alt=""><span class="text-content"><span><center><b>Jeri Silverman</b></center>New Product Development, new business development, start-ups and turnarounds</span></span></div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11766-1395161529.jpg?itok=svTEBlaB" width="120" height="125" alt=""><span class="text-content"><span><center><b>Vishnu Vinekar</b></center>Associate Professor of Information Systems<br>Specializes in IT strategy and systems analysis &amp; deign</span></span></div>
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-146-1368231896.png?itok=umVNXAIj" width="120" height="125" alt=""><span class="text-content"><span><center><b>Mark Willker</b></center>Executive Driector for UBS Investment Bank<br>Product Management of Credit and Rates Derivatives</span></span></div>
-          <!-- Optional: clear the XS cols if their content doesn't match in height -->
-          <div class="clearfix visible-xs-block"></div>
-          <div class="col-xs-6 col-sm-4"></div>
-        </div>
+      <div class="row">
+        <div class="col-xs-6 col-sm-4"><a href="http://linkedin.com" target="_blank"><img alt="" src="fairfieldlogo.jpg" width="120" height="125"><span class="text-content"><span><center><b>John Neal</b></center> Fairfield U. Professor<br> Former Executive VP, General Manager of Campbell Mithun Esty Advertising Agency</span></span></a></div>
+        <div class="clearfix visible-xs-block"></div>
+        <div class="col-xs-6 col-sm-4"><a href="http://linkedin.com" target="_blank"><img alt="" src="fairfieldlogo.jpg" width="120" height="125"> <span class="text-content"><span><center><b>Mele Orendorf</b></center> Senior level executive <br>Extensive experience in Sales, Marketing, Finance and Management in Computer Technology</span></span></a></div>
+        <!-- Optional: clear the XS cols if their content doesn't match in height -->
+        <div class="clearfix visible-xs-block"></div>
+        <div class="col-xs-6 col-sm-4"><a href="http://linkedin.com" target="_blank"><img alt="" src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11717-1383944315.jpg?itok=6sSeUdXi" width="120" height="125"><span class="text-content"><span><center><b>Dr. Rajasree Rajamma</b></center>Department Chair of Marketing<br>MBA in Marketing and Management Information Systems, Bachelors in Electrical and Electronics Engineering</span></span></a></div>
       </div>
       <br>
-      <div name="judges"> <h2>Judges</h2></div>
-      <div id="judges">
-        <div class="row">
-          <div class="col-xs-6 col-sm-4"><img alt="" src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-4-1368230435.jpg?itok=l-ZV076O" width="120" height="125"><span class="text-content"><span><center><b>Don Gibson</b></center>Dean, Charles F. Dolan School of Business<br>Professor of Management</span></span></div>
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-157-1368495046.jpg?itok=z6pAGwkp" width="120" height="125" alt=""><span class="text-content"><span><center><b>Joe Bronson</b></center>Class of 1970<br>Principal, TheBronsonGroup, LLC</span></span></div>
-          <!-- Optional: clear the XS cols if their content doesn't match in height -->
-          <div class="clearfix visible-xs-block"></div>
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-155-1368238821.jpg?itok=R5r64Py8" width="120" height="125" alt=""><span class="text-content"><span><center><b>Mary Campbell</b></center>Class of 1972<br>Managing Director and Founder of EDF Venures</span></span></div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-156-1368238969.jpg?itok=Gr_GIXsN" width="120" height="125" alt=""><span class="text-content"><span><center><b>Hugh Davis</b></center>Class of 1992<br>Co-Founder and Managing Partner at reInvention LLC</span></span></div>
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-644-1368239158.jpg?itok=T6nV-oV6" width="120" height="125" alt=""><span class="text-content"><span><center><b>Michael Garvey</b></center>Class of 1989<br>Founder and Managing Director of License Monitor Inc.</span></span></div>
-          <!-- Optional: clear the XS cols if their content doesn't match in height -->
-          <div class="clearfix visible-xs-block"></div>
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-9-1368231054.jpg?itok=OZfgTOiI" width="120" height="125" alt=""><span class="text-content"><span><center><b>Dr. Marc LeClair</b></center>Professor of Economics</span></span></div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11654-1368239441.jpg?itok=SKc6jXwZ" width="120" height="125" alt=""><span class="text-content"><span><center><b>Chris Lowney</b></center>President, Pilgrimage for Our Children's Future<br>Widely known speaker and writer</span></span></div>
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11653-1368239733.jpg?itok=KloRooq5" width="120" height="125" alt=""><span class="text-content"><span><center><b>Winston Tellis</b></center>Profesor Emeritus of IS &amp; OM<br>Published journals on networking and educational issues in developing countries</span></span></div>
-          <!-- Optional: clear the XS cols if their content doesn't match in height -->
-          <div class="clearfix visible-xs-block"></div>
-          <div class="col-xs-6 col-sm-4"></div>
-        </div>
+      <div class="row">
+        <div class="col-xs-6 col-sm-4"><img alt="" src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11706-1382026922.jpg?itok=uJlyS-rJ" width="120" height="125"><span class="text-content"><span><center><b>Mike Roer</b></center>President of the Entrepreneurship Foundation</span></span></div>
+        <div class="col-xs-6 col-sm-4"><img alt="" src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11738-1390319836.jpg?itok=eFgJSJZ5" width="125" height="125"><span class="text-content"><span><center><b>Thomas E. Walsh</b></center>Partner with BlumShapiro<br>Over 15 years of accounting and auditing experience</span></span></div>
+        <!-- Optional: clear the XS cols if their content doesn't match in height -->
+        <div class="clearfix visible-xs-block"></div>
+        <div class="col-xs-6 col-sm-4"><img alt="" src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11749-1391435176.jpg?itok=XdHGTlok" width="125" height="125"><span class="text-content"><span><center><b>Marcus Wilkinson</b></center>Partner with technology-oriented VLP Law Group LLP</span></span></div>
+      </div>
+    </div>
+    <br>
+    <div name="mentors"><h2>Mentors</h2></div>
+    <div id="mentors">
+      <div class="row">
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11760-1392398735.jpg?itok=1byvV-CF" width="120" height="125" alt=""><span class="text-content"><span><center><b>Mousumi Bose Godbole</b></center>Associate Professor of Marketing<br>8.5 years experience in pharmaceutical and healthcare marketing</span></span></div>
+        <div class="col-xs-6 col-sm-4"><img alt="" src="fairfieldlogo.jpg" width="120" height="125"><span class="text-content"><span><center><b>Joyce Brown</b></center>Managing Director for W.W. Mentorprises, Inc<br>Wide range of consulting and practical experience</span></span></div>
+        <!-- Optional: clear the XS cols if their content doesn't match in height -->
+        <div class="clearfix visible-xs-block"></div>
+        <div class="col-xs-6 col-sm-4"><img alt="" src="fairfieldlogo.jpg" width="120" height="125"><span class="text-content"><span><center><b>James Dugan</b></center>Class of 1985<br>Director of BoA<br>25+ years of Sales and Trading experience</span></span></div>
       </div>
       <br>
-      <div name="organizers"> <h2>Organizers</h2></div>
-      <div id="organizers">
-        <div class="row">
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-4-1368230435.jpg?itok=l-ZV076O" width="120" height="125" alt=""><span class="text-content"><span><center><b>Don Gibson</b></center>Dean, Charles F. Dolan School of Business<br>Professor of Management</span></span></div>
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-8970-1368230388.jpg?itok=aIdW41kl" width="120" height="125" alt=""><span class="text-content"><span><center><b>Shahrokh Etemad</b></center>Associate Professor of Mechanical Engineering<br>Strong product development backgroun</span></span></div>
-          <!-- Optional: clear the XS cols if their content doesn't match in height -->
-          <div class="clearfix visible-xs-block"></div>
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-8-1368231123.jpg?itok=-jiJeQ4T" width="120" height="125" alt=""><span class="text-content"><span><center><b>Dr. Cathy Giapponi</b></center>Associate Professor Management<br>Teaches Business Strategies in the Global Environment and Managing Nonprofit Organizations</span></span></div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-3-1368233774.jpg?itok=VhqMHYfs" width="120" height="125" alt=""><span class="text-content"><span><center><b>Chris Huntley</b></center>Associate Professor of IS &amp; OM<br> Participated in the founding of FAME</span></span></div>
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-9-1368231054.jpg?itok=OZfgTOiI" width="120" height="125" alt=""><span class="text-content"><span><center><b>Dr. Marc LeClair</b></center>Professor of Economics</span></span></div>
-          <!-- Optional: clear the XS cols if their content doesn't match in height -->
-          <div class="clearfix visible-xs-block"></div>
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11792-1411061539.jpg?itok=Cn3pWeBD" width="120" height="125" alt=""><span class="text-content"><span><center><b>Michael McDonald</b></center>Professor of Fiance<br>Worked in an investment banking firm before becoming a Professor</span></span></div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-142-1368231495.jpg?itok=XupFfhCm" width="120" height="125" alt=""><span class="text-content"><span><center><b>Dr. Ryan Munden</b></center>Professor of Electrical Engineering<br>focus on nanotechnology and solar cells, but also innovative technologies in general</span></span></div>
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-130-1374518018.png?itok=60tKGSLH" width="120" height="125" alt=""><span class="text-content"><span><center><b>David Murray</b></center>VP, Integrated Sales and Marketing for NCM Media Networks<br>Currently leads a business development initiative</span></span></div>
-          <!-- Optional: clear the XS cols if their content doesn't match in height -->
-          <div class="clearfix visible-xs-block"></div>
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-48-1370370849.jpg?itok=_JHfMi1p" width="120" height="125" alt=""><span class="text-content"><span><center><b>Patricia Pivarnik</b></center>Program Coordinator<br>Liaison between the faculty, mentors and students about upcoming events and deadlines</span></span></div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11717-1383944315.jpg?itok=6sSeUdXi" width="120" height="125" alt=""><span class="text-content"><span><center><b>Dr. Rajasree Rajamma</b></center>Department Chair of Marketing<br>MBA in Marketing and Management Information Systems, Bachelors in Electrical and Electronics Engineering</span></span></div>
-          <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-33-1368230751.jpg?itok=VPrDT2-m" width="120" height="125" alt=""><span class="text-content"><span><center><b>Jeff Roseman</b></center>President of David Harvey Jewelers of Norwalk and Darien<b>Adjunct Professor teaching Family Business Management, HR and Entrepreneurship</span></span></div>
+      <div class="row">
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-9725-1368234531.jpg?itok=yFs71yVR" width="120" height="125" alt=""><span class="text-content"><span><center><b>Dan Fahy </b></center>Class of 2006<br>New Business Director at Ceros</span></span></div>
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11730-1385397543.jpg?itok=JB9JSCYs" width="120" height="125" alt=""><span class="text-content"><span><center><b>Chris Hamer</b></center>Founder/CEO of CrowdFlik, Inc.<br>Highly experienced digital executive - background in marketing, entertainment, digital media and technology</span></span></div>
+        <!-- Optional: clear the XS cols if their content doesn't match in height -->
+        <div class="clearfix visible-xs-block"></div>
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-127-1368235708.jpg?itok=TUnb-KwL" width="120" height="125" alt=""><span class="text-content"><span><center><b>Brian Harniman</b></center>Class of 1994<br>Over 17 years in online commerce, expertise in building relationships that drive traffic and transactions to websites</span></span></div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11777-1410986158.jpg?itok=2fvLVCHR" width="120" height="125" alt=""><span class="text-content"><span><center><b>Denise Graziano</b></center>President of Graziano Associates<br>strategic thinker and leader with over 27 years of business experience</span></span></div>
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-196-1368237343.jpg?itok=yNBXgvYW" width="120" height="125" alt=""><span class="text-content"><span><center><b>Paul Lukas</b></center>Class of 1989<br>Vice President of Cierant Corporation, graphic arts service provider specializing in Cross-Channel Marketing Communications</span></span></div>
+        <!-- Optional: clear the XS cols if their content doesn't match in height -->
+        <div class="clearfix visible-xs-block"></div>
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11824-1412037432.jpg?itok=ap0-m9K4" width="120" height="125" alt=""><span class="text-content"><span><center><b>David Mangini</b></center>Global Alliances - Security Services for IBM for the past 8 years<br>responsible for creating and managing alliances</span></span></div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11718-1384124997.jpg?itok=X75jCT0s" width="120" height="125" alt=""><span class="text-content"><span><center><b>Gene Mauro</b></center>Class of 1992<br>Serial entrepreneur of digital businesses</span></span></div>
+        <div class="col-xs-6 col-sm-4"><img alt="" src="fairfieldlogo.jpg" width="120" height="125"><span class="text-content"><span><center><b>Tom McCabe</b></center>Managing Director for W.W.Mentorprises, Inc.<br>Wide range of consulting experience</span></span></div>
+        <!-- Optional: clear the XS cols if their content doesn't match in height -->
+        <div class="clearfix visible-xs-block"></div>
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11792-1411061539.jpg?itok=Cn3pWeBD" width="120" height="125" alt=""><span class="text-content"><span><center><b>Michael McDonald</b></center>Professor of Fiance<br>Worked in an investment banking firm before becoming a Professor</span></span></div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11741-1391021996.jpg?itok=-Qw7N-iJ" width="120" height="125" alt=""><span class="text-content"><span><center><b>Desmond Morris</b></center>Class of 2005<br>Technology Consultant</span></span></div>
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-142-1368231495.jpg?itok=XupFfhCm" width="120" height="125" alt=""><span class="text-content"><span><center><b>Dr. Ryan Munden</b></center>Professor of Electrical Engineering<br>focus on nanotechnology and solar cells, but also innovative technologies in general</span></span></div>
+        <!-- Optional: clear the XS cols if their content doesn't match in height -->
+        <div class="clearfix visible-xs-block"></div>
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-130-1374518018.png?itok=60tKGSLH" width="120" height="125" alt=""><span class="text-content"><span><center><b>David Murray</b></center>VP, Integrated Sales and Marketing for NCM Media Networks<br>Currently leads a business development initiative</span></span></div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-xs-6 col-sm-4"><img alt="" src="fairfieldlogo.jpg" width="120" height="125"><span class="text-content"><span><center><b>John Neal</b></center>Fairfield U. Professor<br> Former Executive VP, General Manager of Campbell Mithun Esty Advertising Agency</span></span></div>
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-141-1368238059.jpg?itok=4_3GvJ-k" width="120" height="125" alt=""><span class="text-content"><span><center><b>William Pitt</b></center>Chief Marketing Officer for Beazley pcl</span></span></div>
+        <!-- Optional: clear the XS cols if their content doesn't match in height -->
+        <div class="clearfix visible-xs-block"></div>
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-132-1368238441.jpg?itok=Tmsrc-Fj" width="120" height="125" alt=""><span class="text-content"><span><center><b>Matt Powers</b></center>Class of 2003<br>Chief Technology Officer for Applico, Inc.</span></span></div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11706-1382026922.jpg?itok=uJlyS-rJ" width="120" height="125" alt=""><span class="text-content"><span><center><b>Mike Roer</b></center>President of the Entrepreneurship Foundation</span></span></div>
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11736-1386881995.jpg?itok=ST9bScCv" width="120" height="125" alt=""><span class="text-content"><span><center><b>Mark Selinger</b></center>Class of 1990<br>International Software Executive</span></span></div>
+        <!-- Optional: clear the XS cols if their content doesn't match in height -->
+        <div class="clearfix visible-xs-block"></div>
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11731-1385571174.jpg?itok=2Kb6jyCP" width="120" height="125" alt=""><span class="text-content"><span><center><b>Jeri Silverman</b></center>New Product Development, new business development, start-ups and turnarounds</span></span></div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11766-1395161529.jpg?itok=svTEBlaB" width="120" height="125" alt=""><span class="text-content"><span><center><b>Vishnu Vinekar</b></center>Associate Professor of Information Systems<br>Specializes in IT strategy and systems analysis &amp; deign</span></span></div>
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-146-1368231896.png?itok=umVNXAIj" width="120" height="125" alt=""><span class="text-content"><span><center><b>Mark Willker</b></center>Executive Driector for UBS Investment Bank<br>Product Management of Credit and Rates Derivatives</span></span></div>
+        <!-- Optional: clear the XS cols if their content doesn't match in height -->
+        <div class="clearfix visible-xs-block"></div>
+        <div class="col-xs-6 col-sm-4"></div>
+      </div>
+    </div>
+    <br>
+    <div name="judges"> <h2>Judges</h2></div>
+    <div id="judges">
+      <div class="row">
+        <div class="col-xs-6 col-sm-4"><img alt="" src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-4-1368230435.jpg?itok=l-ZV076O" width="120" height="125"><span class="text-content"><span><center><b>Don Gibson</b></center>Dean, Charles F. Dolan School of Business<br>Professor of Management</span></span></div>
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-157-1368495046.jpg?itok=z6pAGwkp" width="120" height="125" alt=""><span class="text-content"><span><center><b>Joe Bronson</b></center>Class of 1970<br>Principal, TheBronsonGroup, LLC</span></span></div>
+        <!-- Optional: clear the XS cols if their content doesn't match in height -->
+        <div class="clearfix visible-xs-block"></div>
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-155-1368238821.jpg?itok=R5r64Py8" width="120" height="125" alt=""><span class="text-content"><span><center><b>Mary Campbell</b></center>Class of 1972<br>Managing Director and Founder of EDF Venures</span></span></div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-156-1368238969.jpg?itok=Gr_GIXsN" width="120" height="125" alt=""><span class="text-content"><span><center><b>Hugh Davis</b></center>Class of 1992<br>Co-Founder and Managing Partner at reInvention LLC</span></span></div>
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-644-1368239158.jpg?itok=T6nV-oV6" width="120" height="125" alt=""><span class="text-content"><span><center><b>Michael Garvey</b></center>Class of 1989<br>Founder and Managing Director of License Monitor Inc.</span></span></div>
+        <!-- Optional: clear the XS cols if their content doesn't match in height -->
+        <div class="clearfix visible-xs-block"></div>
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-9-1368231054.jpg?itok=OZfgTOiI" width="120" height="125" alt=""><span class="text-content"><span><center><b>Dr. Marc LeClair</b></center>Professor of Economics</span></span></div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11654-1368239441.jpg?itok=SKc6jXwZ" width="120" height="125" alt=""><span class="text-content"><span><center><b>Chris Lowney</b></center>President, Pilgrimage for Our Children's Future<br>Widely known speaker and writer</span></span></div>
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11653-1368239733.jpg?itok=KloRooq5" width="120" height="125" alt=""><span class="text-content"><span><center><b>Winston Tellis</b></center>Profesor Emeritus of IS &amp; OM<br>Published journals on networking and educational issues in developing countries</span></span></div>
+        <!-- Optional: clear the XS cols if their content doesn't match in height -->
+        <div class="clearfix visible-xs-block"></div>
+        <div class="col-xs-6 col-sm-4"></div>
+      </div>
+    </div>
+    <br>
+    <div name="organizers"> <h2>Organizers</h2></div>
+    <div id="organizers">
+      <div class="row">
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-4-1368230435.jpg?itok=l-ZV076O" width="120" height="125" alt=""><span class="text-content"><span><center><b>Don Gibson</b></center>Dean, Charles F. Dolan School of Business<br>Professor of Management</span></span></div>
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-8970-1368230388.jpg?itok=aIdW41kl" width="120" height="125" alt=""><span class="text-content"><span><center><b>Shahrokh Etemad</b></center>Associate Professor of Mechanical Engineering<br>Strong product development backgroun</span></span></div>
+        <!-- Optional: clear the XS cols if their content doesn't match in height -->
+        <div class="clearfix visible-xs-block"></div>
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-8-1368231123.jpg?itok=-jiJeQ4T" width="120" height="125" alt=""><span class="text-content"><span><center><b>Dr. Cathy Giapponi</b></center>Associate Professor Management<br>Teaches Business Strategies in the Global Environment and Managing Nonprofit Organizations</span></span></div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-3-1368233774.jpg?itok=VhqMHYfs" width="120" height="125" alt=""><span class="text-content"><span><center><b>Chris Huntley</b></center>Associate Professor of IS &amp; OM<br> Participated in the founding of FAME</span></span></div>
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-9-1368231054.jpg?itok=OZfgTOiI" width="120" height="125" alt=""><span class="text-content"><span><center><b>Dr. Marc LeClair</b></center>Professor of Economics</span></span></div>
+        <!-- Optional: clear the XS cols if their content doesn't match in height -->
+        <div class="clearfix visible-xs-block"></div>
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11792-1411061539.jpg?itok=Cn3pWeBD" width="120" height="125" alt=""><span class="text-content"><span><center><b>Michael McDonald</b></center>Professor of Fiance<br>Worked in an investment banking firm before becoming a Professor</span></span></div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-142-1368231495.jpg?itok=XupFfhCm" width="120" height="125" alt=""><span class="text-content"><span><center><b>Dr. Ryan Munden</b></center>Professor of Electrical Engineering<br>focus on nanotechnology and solar cells, but also innovative technologies in general</span></span></div>
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-130-1374518018.png?itok=60tKGSLH" width="120" height="125" alt=""><span class="text-content"><span><center><b>David Murray</b></center>VP, Integrated Sales and Marketing for NCM Media Networks<br>Currently leads a business development initiative</span></span></div>
+        <!-- Optional: clear the XS cols if their content doesn't match in height -->
+        <div class="clearfix visible-xs-block"></div>
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-48-1370370849.jpg?itok=_JHfMi1p" width="120" height="125" alt=""><span class="text-content"><span><center><b>Patricia Pivarnik</b></center>Program Coordinator<br>Liaison between the faculty, mentors and students about upcoming events and deadlines</span></span></div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-11717-1383944315.jpg?itok=6sSeUdXi" width="120" height="125" alt=""><span class="text-content"><span><center><b>Dr. Rajasree Rajamma</b></center>Department Chair of Marketing<br>MBA in Marketing and Management Information Systems, Bachelors in Electrical and Electronics Engineering</span></span></div>
+        <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-33-1368230751.jpg?itok=VPrDT2-m" width="120" height="125" alt=""><span class="text-content"><span><center><b>Jeff Roseman</b></center>President of David Harvey Jewelers of Norwalk and Darien<b>Adjunct Professor teaching Family Business Management, HR and Entrepreneurship</span></span></div>
           <!-- Optional: clear the XS cols if their content doesn't match in height -->
           <div class="clearfix visible-xs-block"></div>
           <div class="col-xs-6 col-sm-4"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/square-thumbnail-small/public/profile_photos/picture-7-1370981637.jpg?itok=U8K-kAn4" width="120" height="125" alt=""><span class="text-content"><span><center><b>Carl Scheraga</b></center>Professor of Business Strategy &amp; Technology Mgt.<br>Chair of the Department of Management</span></span></div>
@@ -372,24 +373,24 @@
       <hr>
       <br>
       <br>
-       <div id="footer">
-      <div id="form">
-        Stay Informed:<br />
-        <input maxlength="100" name="email" placeholder="email address" type="text" /> <a href="thankyou.html"><input type="submit" value="Submit!"/></a></div>
-      
-      <h3>
-        Thank you to Our Sponsors</h3>
-      <ul>
-        <li>
-          Criticalmix</li>
-        <li>
-          Independent Software</li>
-        <li>
-          BlumShapiro</li>
-        <li>
-          Fame</li>
-      </ul>
-    </div>
+      <div id="footer">
+        <div id="form">
+          Stay Informed:<br />
+          <input maxlength="100" name="email" placeholder="email address" type="text" /> <a href="thankyou.html"><input type="submit" value="Submit!"/></a></div>
+        
+        <h3>
+          Thank you to Our Sponsors</h3>
+        <ul>
+          <li>
+            Criticalmix</li>
+          <li>
+            Independent Software</li>
+          <li>
+            BlumShapiro</li>
+          <li>
+            Fame</li>
+        </ul>
+      </div>
       <!-- End your code here --> 
     </body>
   </html>
