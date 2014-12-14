@@ -70,7 +70,7 @@
       body{
         background-color: rgb(255, 255, 255);
         margin: 0;
-        padding: 0;
+        padding: 0; 
       }
       #hero {
         max-width:960px;
@@ -89,12 +89,19 @@
       div#footer ul {
         margin-bottom:0;
       }
-      #form {
+       div#form {
         text-align: left;
         padding-left:15px;
+        display:inline-block;
+        position:absolute;
       }
+      
       .sponsors {
-        padding-left:15px;
+        /*  padding-left:15px;*/
+        margin-left:680px;
+        margin-bottom:15;
+        display:inline-block;
+        margin-top:25px;
       }
       .link {
         text-indent:15px;
@@ -144,8 +151,7 @@
         
       </ul>
     </div>
-    <br>
-    <h2>Get Involved</h2>
+    <h2><strong>Get Involved</strong></h2>
     <p>The Business Plan Competition would not be possible without the assistance of an army of alumni, business leaders, and professionals. Maybe you could join us.</p>
     <ul>
       
@@ -178,11 +184,11 @@
     
     <div id="footer">
       <div id="form">
-        Stay Informed:<br />
+        <strong>Stay Informed with Our Latest News:</strong><br />
         <input maxlength="100" name="email" placeholder="email address" type="text" /> <a href="thankyou.html"><input type="submit" value="Submit!"/></a></div>
       
-      <h3>
-        Thank you to Our Sponsors</h3>
+      <div class="sponsors">
+      <h3><strong>Thank you to Our Sponsors!</strong></h3>
       <ul>
         <li>
           Criticalmix</li>
@@ -194,6 +200,7 @@
           Fame</li>
       </ul>
       <br>
+      </div>
     </div>
     
     <!-- End your code here --> 

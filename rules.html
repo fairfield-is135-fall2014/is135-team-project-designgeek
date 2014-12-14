@@ -104,26 +104,34 @@
       #footer {
         background-color: #333;
         color: white;
-        position: relative;
-        /*height: 15em;*/
+        position: absolute;
+        height: 10em;
         clear: right;
-        margin-bottom:0;
+        bottom:0;
+        left:0;
+        width:100%; 
       }
       
-      #form {
+      div#form {
         text-align: left;
         padding-left:15px;
+        display:inline-block;
+        position:absolute;
       }
       
       .sponsor {
-        margin-left:15px;
+        padding-left:15px;
+        margin-left:680px;
+       /* margin-bottom:15;*/
+        display:inline-block;
+        /*margin-top:25px;*/
       }
       
       div#footer ul {
         margin-bottom:0;
-        list-style-type: circle;
-        
+        list-style-type: circle; 
       }
+      
       #menu ul {
         list-style-type: none;
       }
@@ -178,7 +186,7 @@
       </div>
       <br>
       <div id="left-col">
-        <h3>Competitors Guide: Rules and Policies</h3>
+        <h3><strong>Competitors Guide:</strong> Rules and Policies</h3>
         <div id="menu">
           <ul>
             <li><a href="newcompetitorsguide.html">Getting Started</a></li>
@@ -203,7 +211,9 @@
               <li>Useful Links</li>
             </ol>
           </ul>
-        </div></div>
+        </div>
+        </div>
+        <br>
       <div id="right-col">
         <div id="accordion">
           <div class="judging">
@@ -231,14 +241,24 @@
           <div class="mentorguide"> 
             <h3>Guidelines for Mentors</h3></div>
           <div> <p>PUT WORDS HERE  </p> </div>
-          
+         <br> 
         </div>
-      </div></div>
+      </div>
+    </div>
     <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
     <div id="footer">
       <div id="form">
         Stay Informed:<br />
-        <input maxlength="100" name="email" placeholder="email address" type="text" /> <a href="thankyou.html"><input type="submit" value="Submit!"/></a></div>
+        <input maxlength="100" name="email" placeholder="email address" type="text" /> <a href="thankyou.html"><input type="submit" value="Submit!"/></a>
+        </div>
       
       <div class="sponsor">
         <h3>Thank you to Our Sponsors</h3>
@@ -252,7 +272,7 @@
           <li>
             FAME</li>
         </ul>
-        <br>
+   
       </div>
     </div>
     

@@ -76,25 +76,32 @@
         margin:1em auto;
         position: relative;
       }
-      #footer {
+       #footer {
         background-color: #333;
         color: white;
         position: relative;
-        /*height: 15em;*/
-        clear: right;
-        margin-padding:0;
+        /*height: 10em;*/
+        clear: left;
+        margin-bottom:0;
       }
       div#footer ul {
         margin-bottom:0;
         list-style-type:circle;
       }
       
-      #form {
+      div#form {
         text-align: left;
         padding-left:15px;
+        display:inline-block;
+        position:absolute;
       }
+   
       .sponsors {
-        padding-left:15px;
+      /*  padding-left:15px;*/
+        margin-left:680px;
+        margin-bottom:15;
+        display:inline-block;
+        margin-top:25px;
       }
       img {max-width:100%}
       
@@ -117,6 +124,7 @@
         weight:340px;
         position:relative;
         padding:2em;
+        margin-right:100px;
       }
     </style>
   </head>
@@ -155,8 +163,9 @@
       </ul>
     </div>
     <br>
-    <form action="" method="POST"> <!---What do we put for ACTION????????--->
-      <h1> Contact Us! </h1>
+    <form action="contact_form" method="POST"> 
+      <h1><strong> Contact Us!</strong> </h1>
+      <br>
       <fieldset>
         <ul>
           <li>
@@ -197,15 +206,20 @@
         </ul>
       </fieldset>
     </form>
-    
-    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <div id="footer">
       <div id="form">
-        Stay Informed:<br />
+        <strong>Stay Informed with Our Latest News!:</strong><br />
         <input maxlength="100" name="email" placeholder="email address" type="text" /> <a href="thankyou.html"><input type="submit" value="Submit!"/></a></div>
       
       <div class="sponsors">
-        <h3>Thank you to Our Sponsors</h3>
+        <h3><strong>Thank you to Our Sponsors!<strong></h3>
         <ul>
           <li>
             Criticalmix</li>
@@ -216,6 +230,7 @@
           <li>
             FAME</li>
         </ul>
+        <br>
         <br>
       </div>
     </div>

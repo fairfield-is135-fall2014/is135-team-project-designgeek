@@ -85,12 +85,19 @@
         margin-bottom:0;
         list-style-type:circle;
       }
-      #form {
-        text-align:left;
+       div#form {
+        text-align: left;
         padding-left:15px;
+        display:inline-block;
+        position:absolute;
       }
+      
       .sponsors {
-        padding-left:15px;
+        /*  padding-left:15px;*/
+        margin-left:680px;
+        margin-bottom:15;
+        display:inline-block;
+        margin-top:25px;
       }
       #advisors{
         font-family: Veranda; 
@@ -182,9 +189,7 @@
         background-color: #E8D9C5;
         margin: 1em 0;
       }
-      #pgtitle h1{
-  text-decoration: underline;
-}
+  
     </style>
   </head>
   <body>
@@ -222,7 +227,7 @@
       </ul>
     </div>
    
-   <div id="pgtitle"> <h1><strong>Get Connected with Us!</strong></h1></div>
+    <h1><strong>Get Connected with Us!</strong></h1>
     <p>Jump to:
       <div id="people">
         <ul>
@@ -404,11 +409,11 @@
       <br>
       <div id="footer">
         <div id="form">
-          Stay Informed:<br />
+          <strong>Stay Informed with Our Latest News:</strong><br />
           <input maxlength="100" name="email" placeholder="email address" type="text" /> <a href="thankyou.html"><input type="submit" value="Submit!"/></a></div>
         
         <div class="sponsors">
-          <h3>Thank you to Our Sponsors</h3>
+          <h3><strong>Thank you to Our Sponsors</strong></h3>
           <ul>
             <li>
               Criticalmix</li>

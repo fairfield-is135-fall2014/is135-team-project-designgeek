@@ -85,19 +85,28 @@
       #footer {
         background-color: #333;
         color: white;
+        height: 15em;
+        clear: right;  
+        bottom: 0;
+        left: 0;
+        width: 100%;
         position: relative;
-        /*height: 15em;*/
-        clear: right;
-        margin-bottom:0;
       }
-      #form {
+      div#form {
         text-align: left;
         padding-left:15px;
+        display:inline-block;
+        position:absolute;
       }
       
       .sponsors {
-        margin-left:15px; 
+        /*  padding-left:15px;*/
+        margin-left:680px;
+        margin-bottom:15;
+        display:inline-block;
+        margin-top:25px;
       }
+      
       
       div#footer ul {
         margin-bottom:0;
@@ -107,7 +116,7 @@
       ul {
         list-style-type: none;
       }
-       .form label:after {
+      .form label:after {
         content:"*";
         color: red;
       }
@@ -153,26 +162,26 @@
     <form action="" method="POST">
       <h1>Register for Our Events </h1>
       <ul>
-      <div class="form">
-        <li>
-          <label for="form-name">Name:</label>
-          <input type="text" name="name" id="form-name" class="textinput">
-        </li>
-        <li>
-          <label for="form-email">Email Address:</label>
-          <input type="email" name="emailaddress" id="form-email">
-        </li>
-        
-        <li>
-          <label for="form-category">Intrested As:</label>
-          <select id="form-category" name="category" size="1">
-            <option>Spectator or guest with a general interest in entrepreneurship</option>
-            <option>Current student who might like to participate in this year's competition</option>
-            <option>Prospective mentor/advisor/partner for this year's competitions</option>
-            <option>Registered competitor for this year's competition</option>
-            <option>Registered mentor, faculty, or other competition staff</option>
-          </select>
-        </li>
+        <div class="form">
+          <li>
+            <label for="form-name">Name:</label>
+            <input type="text" name="name" id="form-name" class="textinput">
+          </li>
+          <li>
+            <label for="form-email">Email Address:</label>
+            <input type="email" name="emailaddress" id="form-email">
+          </li>
+          
+          <li>
+            <label for="form-category">Intrested As:</label>
+            <select id="form-category" name="category" size="1">
+              <option>Spectator or guest with a general interest in entrepreneurship</option>
+              <option>Current student who might like to participate in this year's competition</option>
+              <option>Prospective mentor/advisor/partner for this year's competitions</option>
+              <option>Registered competitor for this year's competition</option>
+              <option>Registered mentor, faculty, or other competition staff</option>
+            </select>
+          </li>
         </div>
         <li>
           <label for="form-category">Upcoming Events:</label>
@@ -194,15 +203,18 @@
       </ul>
     </form>
     
-    <p class="lw">Get Info here!</p>
-    
+   <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <div id="footer">
       <div id="form">
-        Stay Informed:<br />
+        Stay Informed With Our Latest News:<br />
         <input maxlength="100" name="email" placeholder="email address" type="text" /> <a href="thankyou.html"><input type="submit" value="Submit!"/></a></div>
       
       <div class="sponsors">
-        <h3>Thank you to Our Sponsors</h3>
+        <h3><strong>Thank you to Our Sponsors</strong></h3>
         <ul>
           <li>
             Criticalmix</li>
@@ -213,7 +225,7 @@
           <li>
             Fame</li>
         </ul>
-        <br>
+      
       </div>
     </div>
     

@@ -101,21 +101,30 @@
       #footer {
         background-color: #333;
         color: white;
-        position: relative;
-        /*height: 15em;*/
+        height:20em;
         clear: right;
-        margin-bottom:0;
+        bottom:0;
+        left:0;
+        width:100%; 
+        position: static;
       }
       div#footer ul {
-        margin-bottom:0;
+        margin-bottom:0px;
       }
       
-      #form {
+      div#form {
         text-align: left;
         padding-left:15px;
+        display:inline-block;
+        position:absolute;
       }
+      
       .sponsors {
-        margin-left:15px;
+        /*  padding-left:15px;*/
+        margin-left:680px;
+        margin-bottom:15px;
+        display:inline-block;
+        margin-top:15px;
       }
       #menu ul {
         list-style-type: none;
@@ -123,18 +132,21 @@
       #menu {
         float:right;
       }
-      
+    
       #left-col {
         float:left;
-        width:30%;
-        
+        width:23%;
       }
+      div#left-col {
+  margin-left:10px;
+}
       #right-col {
         float:right;
         width:60%;
-       
       }
-      
+     .started#text1{
+  max-height: 105px;
+}
       
     </style>  
   </head>
@@ -173,14 +185,13 @@
           
         </ul>
       </div>
-      <br>
       <div id="wrap">
         <div id="left-col">
-          <h3>Competitors Guide: The Winning Gameplan</h3>
+          <h3><strong>Competitors Guide: </strong><br>The Winning Gameplan</h3>
           <div id="menu">
             <ul>
-              <li><a href="#started">Getting Started</a></li>
-              <li><a href="newcompetitorsguide">The Winning Game Plan</a></li>
+              <li><a href="newcompetitorsguide.html">Getting Started</a></li>
+              <li><a href="newcompetitorsguide.html">The Winning Game Plan</a></li>
               <ol><li>Do Your Homework</li>
                 <li>Build Your Network</li>
                 <li>Form Your Team</li>
@@ -209,12 +220,12 @@
           <div id="accordion">
             
             <div class="started"><h3>Getting Started</h3></div>
-            <div>
+            <div id="text1">
               <p><strong>Before you can win, you must be officially registered in the competition. Fortunately, you can do that in about 5 minutes from your phone or computer.</strong></p>
               <ol>
                 <li><em><strong>Register on the website</strong></em>. When registering <img alt="" class="attr__format__media_large img__fid__159 img__view_mode__media_large media-image" src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/styles/large/public/AllAtOnce.png?itok=pPXTkRFG" style="box-shadow:none; float:right; height:241px; width:289px">we <u><em><strong>highly</strong></em></u> recommend using your <em><strong>LinkedIN</strong></em>, <em><strong>Google+</strong></em>, or <em><strong>Facebook</strong></em> account to speed up the process. After logging in the first time, you will be asked a few questions about yourself, starting with general questions like your name, etc.  ; and then more specific questions about your class, ;major, and skills &amp; experience.  ; <strong><em>You will not be registered to compete until your profile is complete</em></strong>
                   If your registration gets interrupted, you can resume it by logging in again by the same method you used before. The system will then prompt you to complete your registration.  ;</li>
-                <li><strong><em>Confirm your eligibility to win</em></strong>. The eligibility ;rules are given in the <a href="">Rules  ; Policies</a> section of the Competitors Guide. Please free to <a href="contact.html">contact us</a> to discuss any questions about your eligibility.</li>
+                <li><strong><em>Confirm your eligibility to win</em></strong>. The eligibility ;rules are given in the <a href="">Rules   Policies</a> section of the Competitors Guide. Please free to <a href="contact.html">contact us</a> to discuss any questions about your eligibility.</li>
                 <li><em><strong>Polish up your public directory profile</strong>.</em> Once registered, you can take your time spiffing up your public profile that will be published in the competition directory. <strong>Log in using whatever method (LinkedIN, Google+, Facebook, username/password) you used to register.</strong> (Note: this is <em>very</em> important; if you choose another method then you may end up with two accounts and lots of confusion later on.) Then you can change your picture, craft your skills  ; experience entry, and even add social links to your profile listing. (Instructions for each of these things are given in the FAQs.)</li>
                 <li><em><strong>Ask lots of questions.</strong></em> There is a lot of material here on the website, which can make things confusing sometimes, especially in the beginning. So speak up when that happens! Your questions will help us make it better for you and everyone who comes after you. If you don't know who to ask, use our <a href="contact.html">Contact Us</a> page to email your question, and we'll get it to the right person. ;</li>
               </ol>
@@ -302,16 +313,19 @@
         </div>
       </div>
     </div>
-    
-    
-    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <div id="footer">
       <div id="form">
-        Stay Informed:<br />
+        Stay Informed with Our Latest News!:<br />
         <input maxlength="100" name="email" placeholder="email address" type="text" /> <a href="thankyou.html"><input type="submit" value="Submit!"/></a></div>
       
       <div class="sponsors">
-        <h3> Thank you to Our Sponsors</h3>
+        <h3> <strong>Thank you to Our Sponsors!</strong></h3>
         <ul>
           <li>
             Criticalmix</li>
@@ -321,8 +335,9 @@
             BlumShapiro</li>
           <li>
             FAME</li>
+          
         </ul>
-        <br>
+        
       </div>
     </div>
     
