@@ -4,11 +4,8 @@
     </script><script type="text/javascript" src="http://documentcloud.github.io/underscore/underscore-min.js"></script><!-- Latest compiled and minified CSS -->  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" />
     <!-- Optional theme -->  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css" rel="stylesheet" />
     <!-- Latest compiled and minified JavaScript --><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>  <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <script>
-  var nav = responsiveNav(".nav-collapse");
-</script>
+    
     <title>Fairfield University Business Plan About</title>
-
     
     <style>
       
@@ -40,41 +37,133 @@
         top: 68px;
         text-decoration: none;
       }
-      nav {
+      
+     #navbar {
         background-color: #c8102E;
         overflow: hidden;
         width: 100%;
         height: 50px;
         border-bottom: 5px solid black;
       }
-      nav ul{
+      #navbar ul{
         list-style: none;
         text-align: center;
-        padding:0;
-        margin:0;
-        
       }
-      nav ul li{
+      #navbar ul li{
         display: inline-block;
         text-align: center;
       }
-      nav ul li a{
+      #navbar ul li a{
         display: block;
         padding: .5em;
         margin: .25em;
       }
-      nav a{
+      
+      #navbar a{
         color: white;
         text-decoration: none;
         display: inline-block;
+        width: 100%;
       }
-      nav a:hover{
+      #navbar a:hover{
         background-color: #ED6B6F;
         color: black;
       }
-      nav ul a:visited {
+      #navbar ul a:visited {
         color: black;
       }
+      #navbar li a {
+  
+       	box-sizing:border-box;
+       	-moz-box-sizing:border-box;
+       	-webkit-box-sizing:border-box;
+      }
+      #navbar li:last-child a {
+       	border-right: 0;
+      }
+      #navbar a:hover, nav a:active {
+       	background-color: #ED6B6F;
+      }
+      #navbar a#pull {
+       	display: none;
+      }		
+      @media only screen and (max-width : 730px) {
+       	#navbar {
+        		border-bottom: 0;
+          height: 160px;
+          text-align: center;
+       	}
+       	#navbar ul {
+        		display: none;
+        		
+       	}
+       	#navbar a#pull {
+        		display: inline;
+        		background-color: #c8102E;
+        		width: 100%;
+        		position: relative;
+         
+         
+       	}
+       	#navbar a#pull:after {
+        		content:"";
+        		background: url('nav-icon.png') no-repeat;
+        		width: 30px;
+        		height: 100px;
+        		display: inline-block;
+        		position: absolute;
+        		right: 15px;
+        		top: 10px;
+       	}
+      }
+      
+      @media only screen and (max-width : 480px) {
+       	#navbar {
+        		border-bottom: 0;
+          height: 160px;
+          text-align: center;
+       	}
+       	#navbar ul {
+        		display: none;
+        		
+       	}
+       	#navbar a#pull {
+        		display: inline;
+        		background-color: #c8102E;
+        		width: 100%;
+        		position: relative;
+         
+         
+       	}
+       	#navbar a#pull:after {
+        		content:"";
+        		background: url('nav-icon.png') no-repeat;
+        		width: 30px;
+        		height: 100px;
+        		display: inline-block;
+        		position: absolute;
+        		right: 15px;
+        		top: 10px;
+       	}
+      }
+      
+      @media only screen and (max-width : 320px) {
+      #navbar {
+        		border-bottom: 0;
+          height: 160px;
+          text-align: center;
+       	}
+        #navbar li {
+        		display: block;
+        		float: none;
+        		width: 100%;
+         
+       	}
+       	#navbar li a {
+        		border-bottom: 1px solid #576979;
+       	}
+      }
+     
       body {
         background-color: rgb(255, 255, 255);
         margin: 0;
@@ -121,17 +210,8 @@
       h2 {
         margin-left:10px;
       }
-      /* @media screen and (min-width: 360px){
-      nav{
-      display: block;
-      height: 100px;
-      margin: 0 6px 6px 0;
-    }
-    }*/
-     
-     .navbar navbar-default {
-  background-color:#c8102e;
-}
+  
+      
     </style>
   </head>
   <body>
@@ -140,37 +220,44 @@
       <h2>Business Plan Competition</h2>
     </div> 
     
-    
-    <nav class="navbar navbar-default" role="navigation">
-    <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+     <div class="clearfix" id="navbar">
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <a href="involved.html">Get Involved</a>
+        </li>
+        <li>
+          <a href="events.html">Events</a>
+        </li>
+        <li>
+          <a href="newcompetitorsguide.html">Competitors Guide</a>
+        </li>
+        <li>
+          <a href="connect.html">Get Connected</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact Us</a>
+        </li>
+        <li><a href="#" class="glyphicon glyphicon-search"> </a></li>
+        
+      </ul>
+      <a id="pull">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="involved.html">Get Involved</a>
+        <a href="events.html">Events</a>
+        <a href="newcompetitorsguide.html">Competitors Guide</a>
+        <a href="connect.html">Get Connected</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="#" class="glyphicon glyphicon-search"> </a>
+      </a>
     </div>
-
-      <div class="nav-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="home">Home</a></li>
-          <li class="about"><a href="about.hmtl">About<span class="sr-only">(current)</span></a></li>
-          <li class="involved"><a href="involved.html">Get Involved</a></li>
-          <li><a href="events.html">Events</a></li>
-          <li><a href="newcompetitorsguide.html">Competitors Guide</a></li>
-          <li><a href="connect.html">Get Connected</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-          <li><a href="#" class="glyphicon glyphicon-search"> </a></li>
-          
-        </ul>
-        
-        
-       </div> <!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
-    
+       
     
     <h2><strong>Eligibility Requirements</strong></h2>
     <ol>
@@ -181,7 +268,7 @@
         <li><strong>Complete the full registration process on this website.</strong> If your profile does not appear in the Directory, then your registration is incomplete.</li>
         <li><strong>Allow the Business Plan Competition to store copies of submitted business models, plans, and other work</strong> for judging and archival purposes. The Business Plan Competition will not distribute copies of any plan without the permission of the authors.</li></ul>
       <br>
-      <li>In order to win prize money at the Finale, <strong>each team must ...</strong><img alt="clipboard" src="clipboard.jpg" style=height:170px></li> 
+      <li>In order to win prize money at the Finale, <strong>each team must ...</strong><img class="clipboard"alt="clipboard" src="clipboard.jpg" style=height:170px></li> 
       <ul><li><strong>Register as a team on the website.</strong> If your team is not in the <u>Teams Directory</u> then you are not eligible to win.</li> 
         <li><strong>Maintain a team roster of registered competitiors.</strong> Rosters must have between 1 and 4 student members.</li>
         <li><strong>Acquire and then work with mentors (up to 2) as required.</strong> Teams without a registered mentor listed on their team rosters by the designated date will not be permitted to continue. Further, teams will be required to provide evidence that they have actively worked with their mentors throughout the authoring and revision proecess.</li>
@@ -189,7 +276,7 @@
         <li><strong>Complete all required activities,</strong> including public pitch presentations that include information about your business ideas and plans.</li></ul>
       <br>
       <li>Submitted business <strong>models and business plans must ...</strong></li> 
-      <ul><img alt="seal_of_aapproval" src="Original.jpg">
+      <ul><img class="seal" alt="seal_of_aapproval" src="Original.jpg">
         <li><strong>Propose a new seed or startup venture.</strong> Proposals for tax shelter opportunities, real estate syndications, existing firms with a new product introduction, and industry analyses are not eligible.</li>
         <li><strong>Be the original work of the team.</strong> The author(s) will retain all rights regarding the use of all submitted business models and plans at all times prior to, during, and following the competition.</li></ul>
     </ol>   
@@ -218,34 +305,7 @@
         <br>
         <br>
       </div>
-    </div>
-    
+    </div>   
     
   </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

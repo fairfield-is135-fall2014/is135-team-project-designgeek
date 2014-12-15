@@ -15,6 +15,25 @@
         });
       });
     </script>
+      <script>
+      $(function() {
+       	var pull 		= $('#pull');
+      		menu 		= $('#navbar ul');
+      		menuHeight	= menu.height();
+        
+       	$(pull).on('click', function(e) {
+        		e.preventDefault();
+        		menu.slideToggle();
+       	});
+      });
+      
+      $(window).resize(function(){
+       	var w = $(window).width();
+       	if(w > 320 && menu.is(':hidden')) {
+        		menu.removeAttr('style');
+       	}
+      });	
+    </script>
     <title>Fairfield University Business Plan Competition</title>
     <style>
       #wrapper{
@@ -68,17 +87,76 @@
         padding: .5em;
         margin: .25em;
       }
+      
       #navbar a{
         color: white;
         text-decoration: none;
         display: inline-block;
+        width: 100%;
       }
       #navbar a:hover{
         background-color: #ED6B6F;
         color: black;
       }
       #navbar ul a:visited {
-        color: blue;
+        color: black;
+      }
+      #navbar li a {
+  
+       	box-sizing:border-box;
+       	-moz-box-sizing:border-box;
+       	-webkit-box-sizing:border-box;
+      }
+      #navbar li:last-child a {
+       	border-right: 0;
+      }
+      #navbar a:hover, nav a:active {
+       	background-color: #ED6B6F;
+      }
+      #navbar a#pull {
+       	display: none;
+      }		
+      
+      @media only screen and (max-width : 480px) {
+       	#navbar {
+        		border-bottom: 0;
+          height: 160px;
+       	}
+       	#navbar ul {
+        		display: none;
+        		
+       	}
+       	#navbar a#pull {
+        		display: inline;
+        		background-color: #c8102E;
+        		width: 100%;
+        		position: relative;
+         
+         
+       	}
+       	#navbar a#pull:after {
+        		content:"";
+        		background: url('nav-icon.png') no-repeat;
+        		width: 30px;
+        		height: 100px;
+        		display: inline-block;
+        		position: absolute;
+        		right: 15px;
+        		top: 10px;
+       	}
+      }
+      
+      @media only screen and (max-width : 320px) {
+      
+        #navbar li {
+        		display: block;
+        		float: none;
+        		width: 100%;
+         
+       	}
+       	#navbar li a {
+        		border-bottom: 1px solid #576979;
+       	}
       }
       
       body{
@@ -135,33 +213,43 @@
         <h2>Business Plan Competition</h2>
       </div>
      
-      <div id="navbar">
-        <ul>
-          <li>
-            <a href="index.html">Home</a>
-          </li>
-          <li>
-            <a href="about.html">About</a>
-          </li>
-          <li>
-            <a href="involved.html">Get Involved</a>
-          </li>
-          <li>
-            <a href="events.html">Events</a>
-          </li>
-          <li>
-            <a href="newcompetitorsguide.html">Competitors Guide</a>
-          </li>
-          <li>
-            <a href="connect.html">Get Connected</a>
-          </li>
-          <li>
-            <a href="contact.html">Contact Us</a>
-          </li>
-          <li><a href="#" class="glyphicon glyphicon-search"> </a></li>
-          
-        </ul>
-      </div>
+       <div class="clearfix" id="navbar">
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <a href="involved.html">Get Involved</a>
+        </li>
+        <li>
+          <a href="events.html">Events</a>
+        </li>
+        <li>
+          <a href="newcompetitorsguide.html">Competitors Guide</a>
+        </li>
+        <li>
+          <a href="connect.html">Get Connected</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact Us</a>
+        </li>
+        <li><a href="#" class="glyphicon glyphicon-search"> </a></li>
+        
+      </ul>
+      <a id="pull">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="involved.html">Get Involved</a>
+        <a href="events.html">Events</a>
+        <a href="newcompetitorsguide.html">Competitors Guide</a>
+        <a href="connect.html">Get Connected</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="#" class="glyphicon glyphicon-search"> </a>
+      </a>
+    </div>
       <br>
       
       <h3>Competitors Guide</h3>
